@@ -1,0 +1,37 @@
+donor_type,model,n,MSE,MUE
+alcohol OH,PM7,4,-0.02195,0.0486
+alcohol OH,PM7std,4,0.0119,0.0335
+alcohol OH,RM1,4,-0.0058,0.0318
+alcohol OH,SRM1,4,0.05598,0.05598
+amide C=O,PM7,6,0.00032,0.00538
+amide C=O,PM7std,6,-0.00243,0.00433
+amide C=O,RM1,6,-0.02188,0.02188
+amide C=O,SRM1,6,0.05915,0.05915
+aryloxide,PM7,6,0.0759,0.0759
+aryloxide,PM7std,6,-0.03838,0.03838
+aryloxide,RM1,6,0.07877,0.07877
+aryloxide,SRM1,6,0.18733,0.18733
+carboxylate,PM7,62,-0.01325,0.05538
+carboxylate,PM7std,62,0.01546,0.10043
+carboxylate,RM1,62,-0.00606,0.05264
+carboxylate,SRM1,62,0.00187,0.07192
+carboxylic acid C=O,PM7,5,-0.04618,0.04618
+carboxylic acid C=O,PM7std,5,-0.04238,0.04238
+carboxylic acid C=O,RM1,5,-0.05634,0.05634
+carboxylic acid C=O,SRM1,5,0.01654,0.03146
+diketonate,PM7,18,-0.01452,0.03395
+diketonate,PM7std,18,-0.0118,0.03264
+diketonate,RM1,18,-0.00311,0.03322
+diketonate,SRM1,18,0.04552,0.06152
+ether,PM7,16,-0.01994,0.02881
+ether,PM7std,16,-0.00138,0.02681
+ether,RM1,16,0.08515,0.08938
+ether,SRM1,16,0.06462,0.06462
+sulfonate,PM7,2,-0.13245,0.13245
+sulfonate,PM7std,2,-1.0305,1.0305
+sulfonate,RM1,2,-0.1165,0.1165
+sulfonate,SRM1,2,-0.05615,0.05615
+water,PM7,66,0.03004,0.04701
+water,PM7std,66,0.04853,0.05654
+water,RM1,66,0.0082,0.03312
+water,SRM1,66,0.09135,0.09241

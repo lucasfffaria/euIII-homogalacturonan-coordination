@@ -1,0 +1,183 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v23.2.5                                **
+ **                                                                           **
+ *******************************************************************************
+ ** MOPAC's Digital Object Identifier: https://doi.org/10.5281/zenodo.6511958 **
+ **                                                                           **
+ ** Please cite the open-source release paper for use of this MOPAC version:  **
+ ** J. E. Moussa and J. J. P. Stewart (2026)                                  **
+ ** MOPAC: An open-source semiempirical molecular orbital program             **
+ ** J. Open Source Softw., 11(119), 8025, https://doi.org/10.21105/joss.08025 **
+ *******************************************************************************
+
+                              RM1 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE: (MAX THREADS = 2)              Tue Nov 24 00:18:04 2026  *
+ *  SPARKLE    - Use SPARKLES when they exist.
+ *  RM1        - The RM1 Hamiltonian to be used
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = +2
+ *
+ *
+ *
+ *  1SCF       - DO 1 SCF AND THEN STOP 
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *******************************************************************************
+RM1 SPARKLE CHARGE=2 1SCF
+ SRM1_methoxide_d16 methoxide Eu-O = 1.6 A
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       O          0.00000000      0.00000000      0.00000000   
+     2       C         -1.42000000      0.00000000      0.00000000   
+     3       H         -1.80000000     -0.50000000      0.85000000   
+     4       H         -1.80000000     -0.50000000     -0.85000000   
+     5       H         -1.80000000      1.00000000      0.00000000   
+     6      Eu          0.96000000     -1.28000000      0.00000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         O          0.0000      0.0000      0.0000
+     2         C         -1.4200      0.0000      0.0000
+     3         H         -1.8000     -0.5000      0.8500
+     4         H         -1.8000     -0.5000     -0.8500
+     5         H         -1.8000      1.0000      0.0000
+     6        Eu          0.9600     -1.2800      0.0000
+
+  H: (RM1): G.B. ROCHA, R.O. FREIRE, A.M.SIMAS, J.J.P. STEWART, J. COMP. CHEM. 27, 1101 (2006)
+  C: (RM1): G.B. ROCHA, R.O. FREIRE, A.M.SIMAS, J.J.P. STEWART, J. COMP. CHEM. 27, 1101 (2006)
+  O: (RM1): G.B. ROCHA, R.O. FREIRE, A.M.SIMAS, J.J.P. STEWART, J. COMP. CHEM. 27, 1101 (2006)
+ Eu: (RM1): Filho, M.A.M., Dutra, J.D.L., et al., JCTC, 2014, DOI: 10.1021/ct400909w
+
+           Empirical Formula: C H3 O Eu  =     6 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 7
+
+
+ -------------------------------------------------------------------------------
+ RM1 SPARKLE CHARGE=2 1SCF
+ SRM1_methoxide_d16 methoxide Eu-O = 1.6 A
+
+
+
+     1SCF WAS SPECIFIED, SO BFGS WAS NOT USED                 
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              RM1 CALCULATION
+                                                       MOPAC v23.2.5 Windows
+                                                       Tue Nov 24 00:18:05 2026
+
+
+
+
+          FINAL HEAT OF FORMATION =        916.44067 KCAL/MOL =    3834.38776 KJ/MOL
+
+
+          COSMO AREA              =        119.64 SQUARE ANGSTROMS
+          COSMO VOLUME            =        115.70 CUBIC ANGSTROMS
+
+          IONIZATION POTENTIAL    =         20.698185 EV
+          HOMO LUMO ENERGIES (EV) =        -20.698 -5.081
+          NO. OF FILLED LEVELS    =          7
+          MOLECULAR WEIGHT        =        182.9981         POINT GROUP:  Cs  
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+           Eu     6    H     5     3.57994
+            O     1    H     3     1.75189
+            H     4    O     1     1.48649
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         =      0.013 SECONDS
+          COMPUTATION TIME        =      0.000 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       O          0.00000000      0.00000000      0.00000000   
+     2       C         -1.42000000      0.00000000      0.00000000   
+     3       H         -1.80000000     -0.50000000      0.85000000   
+     4       H         -1.80000000     -0.50000000     -0.85000000   
+     5       H         -1.80000000      1.00000000      0.00000000   
+     6      Eu          0.96000000     -1.28000000      0.00000000   
+
+                             CARTESIAN COORDINATES
+
+   1    O        0.000000000     0.000000000     0.000000000
+   2    C       -1.420000000     0.000000000     0.000000000
+   3    H       -1.800000000    -0.500000000     0.850000000
+   4    H       -1.800000000    -0.500000000    -0.850000000
+   5    H       -1.800000000     1.000000000     0.000000000
+   6   Eu        0.960000000    -1.280000000     0.000000000
+
+
+           Empirical Formula: C H3 O Eu  =     6 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+                  EIGENVALUES  
+ -44.87554 -36.25841 -26.92550 -25.28441 -25.16882 -20.95989 -20.69819  -5.08122
+  -3.85685  -3.61923  -2.23212
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          O          -1.352176        7.3522     1.91435     5.43782
+    2          C           0.058651        3.9413     1.13891     2.80244
+    3          H           0.062722        0.9373     0.93728
+    4          H           0.062722        0.9373     0.93728
+    5          H           0.168080        0.8319     0.83192
+    6         Eu           3.000000        0.0000
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     4.418    -7.727    -0.000     8.901
+ HYBRID        -0.049     0.052     0.000     0.071
+ SUM            4.370    -7.676    -0.000     8.832
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  O   1.91435   1.45607   1.99247   1.98929
+    2  C   1.13891   0.64840   1.14997   1.00407
+    3  H   0.93728
+    4  H   0.93728
+    5  H   0.83192
+    6 Eu
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.02 SECONDS
+
+ == MOPAC DONE ==

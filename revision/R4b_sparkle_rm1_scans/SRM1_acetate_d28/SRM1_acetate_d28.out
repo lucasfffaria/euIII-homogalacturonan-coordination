@@ -1,0 +1,196 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v23.2.5                                **
+ **                                                                           **
+ *******************************************************************************
+ ** MOPAC's Digital Object Identifier: https://doi.org/10.5281/zenodo.6511958 **
+ **                                                                           **
+ ** Please cite the open-source release paper for use of this MOPAC version:  **
+ ** J. E. Moussa and J. J. P. Stewart (2026)                                  **
+ ** MOPAC: An open-source semiempirical molecular orbital program             **
+ ** J. Open Source Softw., 11(119), 8025, https://doi.org/10.21105/joss.08025 **
+ *******************************************************************************
+
+                              RM1 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE: (MAX THREADS = 2)              Tue Nov 24 00:17:34 2026  *
+ *  SPARKLE    - Use SPARKLES when they exist.
+ *  RM1        - The RM1 Hamiltonian to be used
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = +2
+ *
+ *
+ *
+ *  1SCF       - DO 1 SCF AND THEN STOP 
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *******************************************************************************
+RM1 SPARKLE CHARGE=2 1SCF
+ SRM1_acetate_d28 acetate Eu-O = 2.8 A
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C          0.00000000      0.00000000      0.00000000   
+     2       O          0.63000000      1.10000000      0.00000000   
+     3       O          0.63000000     -1.10000000      0.00000000   
+     4       C         -1.52000000      0.00000000      0.00000000   
+     5       H         -1.90000000      1.02000000      0.00000000   
+     6       H         -1.90000000     -0.51000000      0.88000000   
+     7       H         -1.90000000     -0.51000000     -0.88000000   
+     8      Eu          3.20487900      0.00000000      0.00000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         C          0.0000      0.0000      0.0000
+     2         O          0.6300      1.1000      0.0000
+     3         O          0.6300     -1.1000      0.0000
+     4         C         -1.5200      0.0000      0.0000
+     5         H         -1.9000      1.0200      0.0000
+     6         H         -1.9000     -0.5100      0.8800
+     7         H         -1.9000     -0.5100     -0.8800
+     8        Eu          3.2049      0.0000      0.0000
+
+  H: (RM1): G.B. ROCHA, R.O. FREIRE, A.M.SIMAS, J.J.P. STEWART, J. COMP. CHEM. 27, 1101 (2006)
+  C: (RM1): G.B. ROCHA, R.O. FREIRE, A.M.SIMAS, J.J.P. STEWART, J. COMP. CHEM. 27, 1101 (2006)
+  O: (RM1): G.B. ROCHA, R.O. FREIRE, A.M.SIMAS, J.J.P. STEWART, J. COMP. CHEM. 27, 1101 (2006)
+ Eu: (RM1): Filho, M.A.M., Dutra, J.D.L., et al., JCTC, 2014, DOI: 10.1021/ct400909w
+
+           Empirical Formula: C2 H3 O2 Eu  =     8 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 12
+
+
+ -------------------------------------------------------------------------------
+ RM1 SPARKLE CHARGE=2 1SCF
+ SRM1_acetate_d28 acetate Eu-O = 2.8 A
+
+
+
+     1SCF WAS SPECIFIED, SO BFGS WAS NOT USED                 
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              RM1 CALCULATION
+                                                       MOPAC v23.2.5 Windows
+                                                       Tue Nov 24 00:17:34 2026
+
+
+
+
+          FINAL HEAT OF FORMATION =        613.96800 KCAL/MOL =    2568.84212 KJ/MOL
+
+
+          COSMO AREA              =        150.84 SQUARE ANGSTROMS
+          COSMO VOLUME            =        150.81 CUBIC ANGSTROMS
+
+          IONIZATION POTENTIAL    =         17.316845 EV
+          HOMO LUMO ENERGIES (EV) =        -17.317 -4.632
+          NO. OF FILLED LEVELS    =         12
+          MOLECULAR WEIGHT        =        211.0085         POINT GROUP:  Cs  
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+           Eu     8    H     5     5.20578
+            O     2    H     6     2.25344
+            H     7    O     2     1.62025
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         =      0.015 SECONDS
+          COMPUTATION TIME        =      0.016 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C          0.00000000      0.00000000      0.00000000   
+     2       O          0.63000000      1.10000000      0.00000000   
+     3       O          0.63000000     -1.10000000      0.00000000   
+     4       C         -1.52000000      0.00000000      0.00000000   
+     5       H         -1.90000000      1.02000000      0.00000000   
+     6       H         -1.90000000     -0.51000000      0.88000000   
+     7       H         -1.90000000     -0.51000000     -0.88000000   
+     8      Eu          3.20487900      0.00000000      0.00000000   
+
+                             CARTESIAN COORDINATES
+
+   1    C        0.000000000     0.000000000     0.000000000
+   2    O        0.630000000     1.100000000     0.000000000
+   3    O        0.630000000    -1.100000000     0.000000000
+   4    C       -1.520000000     0.000000000     0.000000000
+   5    H       -1.900000000     1.020000000     0.000000000
+   6    H       -1.900000000    -0.510000000     0.880000000
+   7    H       -1.900000000    -0.510000000    -0.880000000
+   8   Eu        3.204879000     0.000000000     0.000000000
+
+
+           Empirical Formula: C2 H3 O2 Eu  =     8 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+                  EIGENVALUES  
+ -43.72854 -40.02602 -34.54360 -26.61111 -23.38978 -22.00676 -21.99990 -18.42420
+ -18.15224 -18.05273 -17.93941 -17.31684  -4.63222  -1.83096  -0.65494  -0.35544
+  -0.23626   0.67069   0.89283
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          C           0.419428        3.5806     1.20830     2.37227
+    2          O          -0.775446        6.7754     1.91384     4.86161
+    3          O          -0.777324        6.7773     1.91381     4.86351
+    4          C          -0.227951        4.2280     1.15791     3.07005
+    5          H           0.118256        0.8817     0.88174
+    6          H           0.121519        0.8785     0.87848
+    7          H           0.121519        0.8785     0.87848
+    8         Eu           3.000000        0.0000
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    17.852    -0.006    -0.000    17.852
+ HYBRID        -0.177    -0.026     0.000     0.179
+ SUM           17.675    -0.032    -0.000    17.675
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  C   1.20830   0.95751   0.79866   0.61610
+    2  O   1.91384   1.76170   1.38992   1.70999
+    3  O   1.91381   1.76113   1.39017   1.71221
+    4  C   1.15791   0.89332   1.09235   1.08437
+    5  H   0.88174
+    6  H   0.87848
+    7  H   0.87848
+    8 Eu
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.03 SECONDS
+
+ == MOPAC DONE ==

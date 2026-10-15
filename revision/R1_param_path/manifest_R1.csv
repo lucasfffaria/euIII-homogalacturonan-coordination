@@ -1,0 +1,18 @@
+job,keywords,external,purpose,geometry
+P01_w8_PM7_SPARKLE_reviewer,PM7 SPARKLE CHARGE=+3 1SCF LARGE DEBUG MOLDAT HCORE PRECISE XYZ CALPAR,,"reviewer's input, verbatim keywords",[Eu(H2O)8]3+ (Reviewer 1 input)
+P02_w8_PM7_SPARKLE_recal_reviewer,PM7 SPARKLE CHARGE=+3 1SCF LARGE DEBUG MOLDAT HCORE PRECISE XYZ CALPAR EXTERNAL=eu_fix.txt,eu_fix.txt,reviewer's input + Eu-O pair of this work: parameter print with the pair defined,[Eu(H2O)8]3+ (Reviewer 1 input)
+P03_w8_PM7,PM7 CHARGE=+3 1SCF PRECISE GRADIENTS AUX(PRECISION=6) THREADS=2,,PM7 without the SPARKLE keyword,[Eu(H2O)8]3+ (Reviewer 1 input)
+P04_w8_PM7_SPARKLE,PM7 SPARKLE CHARGE=+3 1SCF PRECISE GRADIENTS AUX(PRECISION=6) THREADS=2,,PM7 with SPARKLE: expected identical to P03,[Eu(H2O)8]3+ (Reviewer 1 input)
+P05_w8_PM7_SPARKLE_fallback,PM7 SPARKLE CHARGE=+3 1SCF PRECISE GRADIENTS AUX(PRECISION=6) THREADS=2 EXTERNAL=eu_fallback.txt,eu_fallback.txt,"Eu-O pair set explicitly to the run-time fallback (0.1782195, 1.2285675): expected identical to P04",[Eu(H2O)8]3+ (Reviewer 1 input)
+P06_w8_PM7_SPARKLE_recal,PM7 SPARKLE CHARGE=+3 1SCF PRECISE GRADIENTS AUX(PRECISION=6) THREADS=2 EXTERNAL=eu_fix.txt,eu_fix.txt,"Eu-O pair of this work, with SPARKLE",[Eu(H2O)8]3+ (Reviewer 1 input)
+P07_w8_PM7_recal,PM7 CHARGE=+3 1SCF PRECISE GRADIENTS AUX(PRECISION=6) THREADS=2 EXTERNAL=eu_fix.txt,eu_fix.txt,"Eu-O pair of this work, production keyword form (no SPARKLE): expected identical to P06",[Eu(H2O)8]3+ (Reviewer 1 input)
+P08_w8_PM7_SPARKLE_noG2,PM7 SPARKLE CHARGE=+3 1SCF PRECISE GRADIENTS AUX(PRECISION=6) THREADS=2 EXTERNAL=eu_noG2.txt,eu_noG2.txt,second Eu Gaussian switched off: identical to P04 if that Gaussian is inactive in the PM7 path,[Eu(H2O)8]3+ (Reviewer 1 input)
+P09_w8_PM7_SPARKLE_noG1,PM7 SPARKLE CHARGE=+3 1SCF PRECISE GRADIENTS AUX(PRECISION=6) THREADS=2 EXTERNAL=eu_noG1.txt,eu_noG1.txt,"first Eu Gaussian switched off: positive control, must differ from P04",[Eu(H2O)8]3+ (Reviewer 1 input)
+P10_w8_PM7_SPARKLE_alp,PM7 SPARKLE CHARGE=+3 1SCF PRECISE GRADIENTS AUX(PRECISION=6) THREADS=2 EXTERNAL=eu_alp.txt,eu_alp.txt,sparkle ALP changed to 5.0: identical to P04 if ALP is unused in the PM7 path,[Eu(H2O)8]3+ (Reviewer 1 input)
+P11_w8_PM7_SPARKLE_lnlike,PM7 SPARKLE CHARGE=+3 1SCF PRECISE GRADIENTS AUX(PRECISION=6) THREADS=2 EXTERNAL=eu_lnlike.txt,eu_lnlike.txt,"Eu-O pair 5.0/3.0, i.e. 1+10exp(-3(r+0.0003r^6)): close analogue of the lanthanide-specific branch",[Eu(H2O)8]3+ (Reviewer 1 input)
+P12_w8_RM1,RM1 CHARGE=+3 1SCF PRECISE GRADIENTS AUX(PRECISION=6) THREADS=2,,"RM1 lanthanide model (Eu with orbitals), as used in this work",[Eu(H2O)8]3+ (Reviewer 1 input)
+P13_w8_RM1_SPARKLE,RM1 SPARKLE CHARGE=+3 1SCF PRECISE GRADIENTS AUX(PRECISION=6) THREADS=2,,"Sparkle/RM1: a different model, must differ from P12",[Eu(H2O)8]3+ (Reviewer 1 input)
+P14_hexa_PM7_recal,PM7 CHARGE=0 1SCF PRECISE AUX(PRECISION=6) THREADS=2 GEO-OK EXTERNAL=eu_fix.txt,eu_fix.txt,production keyword form on a hexasaccharide cluster,final geometry of PM7_B3_h2_mono2
+P15_hexa_PM7_SPARKLE_recal,PM7 SPARKLE CHARGE=0 1SCF PRECISE AUX(PRECISION=6) THREADS=2 GEO-OK EXTERNAL=eu_fix.txt,eu_fix.txt,same with SPARKLE: expected identical to P14,final geometry of PM7_B3_h2_mono2
+P16_hexa_RM1,RM1 CHARGE=0 1SCF PRECISE AUX(PRECISION=6) THREADS=2 GEO-OK,,RM1 lanthanide model on a hexasaccharide cluster,final geometry of RM1_B3_h2_mono2
+P17_hexa_RM1_SPARKLE,RM1 SPARKLE CHARGE=0 1SCF PRECISE AUX(PRECISION=6) THREADS=2 GEO-OK,,Sparkle/RM1 on the same geometry: must differ from P16,final geometry of RM1_B3_h2_mono2

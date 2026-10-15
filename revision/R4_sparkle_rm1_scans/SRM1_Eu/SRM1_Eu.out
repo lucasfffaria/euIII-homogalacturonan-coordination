@@ -1,0 +1,117 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v23.2.5                                **
+ **                                                                           **
+ *******************************************************************************
+ ** MOPAC's Digital Object Identifier: https://doi.org/10.5281/zenodo.6511958 **
+ **                                                                           **
+ ** Please cite the open-source release paper for use of this MOPAC version:  **
+ ** J. E. Moussa and J. J. P. Stewart (2026)                                  **
+ ** MOPAC: An open-source semiempirical molecular orbital program             **
+ ** J. Open Source Softw., 11(119), 8025, https://doi.org/10.21105/joss.08025 **
+ *******************************************************************************
+
+                              RM1 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE: (MAX THREADS = 2)              Mon Nov 23 17:07:42 2026  *
+ *  SPARKLE    - Use SPARKLES when they exist.
+ *  RM1        - The RM1 Hamiltonian to be used
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = +3
+ *
+ *
+ *
+ *  1SCF       - DO 1 SCF AND THEN STOP 
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *******************************************************************************
+RM1 SPARKLE CHARGE=3 1SCF
+ SRM1_Eu Eu3+ reference
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Eu          0.00000000      0.00000000      0.00000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1        Eu          0.0000      0.0000      0.0000
+
+ Eu: (RM1): Filho, M.A.M., Dutra, J.D.L., et al., JCTC, 2014, DOI: 10.1021/ct400909w
+
+           Empirical Formula: Eu  =     1 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   R3  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 0
+
+
+ -------------------------------------------------------------------------------
+ RM1 SPARKLE CHARGE=3 1SCF
+ SRM1_Eu Eu3+ reference
+
+
+
+     1SCF WAS SPECIFIED, SO BFGS WAS NOT USED                 
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              RM1 CALCULATION
+                                                       MOPAC v23.2.5 Windows
+                                                       Mon Nov 23 17:07:42 2026
+
+
+
+
+          FINAL HEAT OF FORMATION =       1006.60000 KCAL/MOL =    4211.61440 KJ/MOL
+
+
+          COSMO AREA              =         99.23 SQUARE ANGSTROMS
+          COSMO VOLUME            =         92.94 CUBIC ANGSTROMS
+
+          NO. OF FILLED LEVELS    =          0
+          MOLECULAR WEIGHT        =        151.9640         POINT GROUP:  R3  
+
+
+          SCF CALCULATIONS        =          0
+ 
+          WALL-CLOCK TIME         =      0.012 SECONDS
+          COMPUTATION TIME        =      0.016 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Eu          0.00000000      0.00000000      0.00000000   
+
+                             CARTESIAN COORDINATES
+
+   1   Eu        0.000000000     0.000000000     0.000000000
+
+
+           Empirical Formula: Eu  =     1 atoms
+
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.02 SECONDS
+
+ == MOPAC DONE ==

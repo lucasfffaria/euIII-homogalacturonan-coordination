@@ -1,0 +1,13 @@
+Model,Motif class,n,median,range,distribution
+Sparkle/PM7+EuO,bidentate carboxylate present,28,7.0,5–7,5 H2O: 2; 6 H2O: 11; 7 H2O: 15
+Sparkle/PM7+EuO,monodentate carboxylate only,20,6.0,5–8,5 H2O: 3; 6 H2O: 12; 7 H2O: 4; 8 H2O: 1
+Sparkle/PM7+EuO,ester / backbone O only (M6),3,7.0,7–8,7 H2O: 2; 8 H2O: 1
+Sparkle/PM7+EuO,hydrated start (no pectin O in first sphere),26,9.0,9–9,9 H2O: 26
+Sparkle/RM1,bidentate carboxylate present,29,7.0,5–7,5 H2O: 2; 6 H2O: 11; 7 H2O: 16
+Sparkle/RM1,monodentate carboxylate only,21,6.0,5–8,5 H2O: 4; 6 H2O: 12; 7 H2O: 4; 8 H2O: 1
+Sparkle/RM1,ester / backbone O only (M6),3,7.0,7–8,7 H2O: 2; 8 H2O: 1
+Sparkle/RM1,hydrated start (no pectin O in first sphere),29,9.0,9–9,9 H2O: 29
+RM1,bidentate carboxylate present,11,6.0,5–7,5 H2O: 2; 6 H2O: 5; 7 H2O: 4
+RM1,monodentate carboxylate only,11,6.0,5–6,5 H2O: 3; 6 H2O: 8
+RM1,ester / backbone O only (M6),3,7.0,7–8,7 H2O: 2; 8 H2O: 1
+RM1,hydrated start (no pectin O in first sphere),0,,,

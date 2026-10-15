@@ -1,0 +1,82 @@
+2026-11-24T04:56:24 START: 40 pending jobs, MaxParallel=13
+2026-11-24T04:56:24 START PM7_M6_cl_ester2_dm (stage 0)
+2026-11-24T04:56:24 START PM7_M6_cl_ester2_dp (stage 0)
+2026-11-24T04:56:24 START PM7_M6_h2_ester2_dm (stage 0)
+2026-11-24T04:56:24 START PM7_M6_h2_ester2_dp (stage 0)
+2026-11-24T04:56:24 START PM7_M6_h3_ester2_dm (stage 0)
+2026-11-24T04:56:24 START PM7_M6_h3_ester2_dp (stage 0)
+2026-11-24T04:56:24 START RM1_M6_h2_ester2_dm (stage 0)
+2026-11-24T04:56:24 START RM1_M6_h2_ester2_dp (stage 0)
+2026-11-24T04:56:24 START SRM1_A6_h3_bid_dm (stage 0)
+2026-11-24T04:56:24 START SRM1_A6_h3_bid_dp (stage 0)
+2026-11-24T04:56:24 START SRM1_B2_cl_mono2_dm (stage 0)
+2026-11-24T04:56:24 START SRM1_B2_cl_mono2_dp (stage 0)
+2026-11-24T04:56:24 START SRM1_B2_h3_mono2_dm (stage 0)
+2026-11-24T04:57:24 DONE  PM7_M6_h3_ester2_dp exit=0 gnorm=0.77805 60s
+2026-11-24T04:57:24 DONE  PM7_M6_h3_ester2_dm exit=0 gnorm=0.98481 60s
+2026-11-24T04:57:24 START SRM1_B2_h3_mono2_dp (stage 0)
+2026-11-24T04:57:24 START SRM1_B3_cl_bid_dm (stage 0)
+2026-11-24T04:57:29 DONE  PM7_M6_h2_ester2_dp exit=0 gnorm=0.77159 65s
+2026-11-24T04:57:29 DONE  SRM1_A6_h3_bid_dp exit=0 gnorm=0.67891 65s
+2026-11-24T04:57:29 DONE  PM7_M6_cl_ester2_dm exit=0 gnorm=0.97986 65s
+2026-11-24T04:57:29 DONE  SRM1_B2_cl_mono2_dp exit=0 gnorm=0.60023 65s
+2026-11-24T04:57:29 DONE  SRM1_B2_h3_mono2_dm exit=0 gnorm=0.92941 65s
+2026-11-24T04:57:29 DONE  SRM1_A6_h3_bid_dm exit=0 gnorm=0.78075 65s
+2026-11-24T04:57:29 DONE  SRM1_B2_cl_mono2_dm exit=0 gnorm=0.65789 65s
+2026-11-24T04:57:29 START SRM1_B3_cl_bid_dp (stage 0)
+2026-11-24T04:57:29 START SRM1_B3_h2_bid_dm (stage 0)
+2026-11-24T04:57:29 START SRM1_B3_h2_bid_dp (stage 0)
+2026-11-24T04:57:29 START SRM1_CTRL_Eu_w8_dm (stage 0)
+2026-11-24T04:57:29 START SRM1_CTRL_Eu_w8_dp (stage 0)
+2026-11-24T04:57:29 START SRM1_CTRL_Eu_w9_dm (stage 0)
+2026-11-24T04:57:29 START SRM1_CTRL_Eu_w9_dp (stage 0)
+2026-11-24T04:57:34 DONE  SRM1_CTRL_Eu_w8_dp exit=0 gnorm=0.99424 5s
+2026-11-24T04:57:34 DONE  SRM1_CTRL_Eu_w9_dm exit=0 gnorm=0.93501 5s
+2026-11-24T04:57:34 DONE  PM7_M6_h2_ester2_dm exit=0 gnorm=0.91479 71s
+2026-11-24T04:57:34 DONE  SRM1_CTRL_Eu_w8_dm exit=0 gnorm=0.9567 5s
+2026-11-24T04:57:34 DONE  SRM1_CTRL_Eu_w9_dp exit=0 gnorm=0.99047 5s
+2026-11-24T04:57:34 START SRM1_CTRL_GalA_bid_dm (stage 0)
+2026-11-24T04:57:34 START SRM1_CTRL_GalA_bid_dp (stage 0)
+2026-11-24T04:57:34 START SRM1_CTRL_GalAMe_ester_dm (stage 0)
+2026-11-24T04:57:34 START SRM1_CTRL_GalAMe_ester_dp (stage 0)
+2026-11-24T04:57:34 START SRM1_D2_cl_hyd_dm (stage 0)
+2026-11-24T04:57:39 DONE  SRM1_CTRL_GalA_bid_dp exit=0 gnorm=0.911 5s
+2026-11-24T04:57:39 DONE  SRM1_CTRL_GalAMe_ester_dp exit=0 gnorm=0.66955 5s
+2026-11-24T04:57:39 DONE  SRM1_CTRL_GalA_bid_dm exit=0 gnorm=0.5428 5s
+2026-11-24T04:57:39 DONE  SRM1_CTRL_GalAMe_ester_dm exit=0 gnorm=0.51753 5s
+2026-11-24T04:57:39 START SRM1_D2_cl_hyd_dp (stage 0)
+2026-11-24T04:57:39 START SRM1_D2_h2_mono2_dm (stage 0)
+2026-11-24T04:57:39 START SRM1_D2_h2_mono2_dp (stage 0)
+2026-11-24T04:57:39 START SRM1_H3alt_h3_hyd_dm (stage 0)
+2026-11-24T04:57:44 DONE  RM1_M6_h2_ester2_dp exit=0 gnorm=0.85987 81s
+2026-11-24T04:57:44 DONE  RM1_M6_h2_ester2_dm exit=0 gnorm=0.8582 81s
+2026-11-24T04:57:45 START SRM1_H3alt_h3_hyd_dp (stage 0)
+2026-11-24T04:57:45 START SRM1_H3blk_h2_hyd_dm (stage 0)
+2026-11-24T04:58:05 DONE  PM7_M6_cl_ester2_dp exit=0 gnorm=0.96605 101s
+2026-11-24T04:58:05 START SRM1_H3blk_h2_hyd_dp (stage 0)
+2026-11-24T04:58:30 DONE  SRM1_B3_cl_bid_dm exit=0 gnorm=0.86788 66s
+2026-11-24T04:58:30 START SRM1_M6_cl_ester2_dm (stage 0)
+2026-11-24T04:58:35 DONE  SRM1_B3_h2_bid_dm exit=0 gnorm=0.77533 65s
+2026-11-24T04:58:35 START SRM1_M6_cl_ester2_dp (stage 0)
+2026-11-24T04:58:40 DONE  SRM1_B3_cl_bid_dp exit=0 gnorm=0.65144 71s
+2026-11-24T04:58:40 DONE  SRM1_B3_h2_bid_dp exit=0 gnorm=0.78583 70s
+2026-11-24T04:58:40 START SRM1_P3_cl_hyd_dm (stage 0)
+2026-11-24T04:58:40 START SRM1_P3_cl_hyd_dp (stage 0)
+2026-11-24T04:58:45 DONE  SRM1_H3alt_h3_hyd_dm exit=0 gnorm=0.81114 65s
+2026-11-24T04:58:45 DONE  SRM1_D2_cl_hyd_dm exit=0 gnorm=0.98078 70s
+2026-11-24T04:58:45 START SRM1_P3_h2_bid_dm (stage 0)
+2026-11-24T04:58:45 START SRM1_P3_h2_bid_dp (stage 0)
+2026-11-24T04:58:55 DONE  SRM1_H3blk_h2_hyd_dm exit=0 gnorm=0.76757 70s
+2026-11-24T04:58:55 DONE  SRM1_D2_h2_mono2_dm exit=0 gnorm=0.67616 75s
+2026-11-24T04:59:10 DONE  SRM1_H3blk_h2_hyd_dp exit=0 gnorm=0.92932 65s
+2026-11-24T04:59:10 DONE  SRM1_H3alt_h3_hyd_dp exit=0 gnorm=0.87265 85s
+2026-11-24T04:59:15 DONE  SRM1_B2_h3_mono2_dp exit=0 gnorm=0.92758 111s
+2026-11-24T04:59:35 DONE  SRM1_M6_cl_ester2_dm exit=0 gnorm=0.81793 65s
+2026-11-24T04:59:40 DONE  SRM1_D2_cl_hyd_dp exit=0 gnorm=0.97208 120s
+2026-11-24T04:59:40 DONE  SRM1_D2_h2_mono2_dp exit=0 gnorm=0.96527 120s
+2026-11-24T04:59:45 DONE  SRM1_P3_cl_hyd_dm exit=0 gnorm=0.96407 65s
+2026-11-24T04:59:45 DONE  SRM1_P3_h2_bid_dp exit=0 gnorm=0.88965 60s
+2026-11-24T04:59:45 DONE  SRM1_P3_cl_hyd_dp exit=0 gnorm=0.85378 65s
+2026-11-24T04:59:45 DONE  SRM1_P3_h2_bid_dm exit=0 gnorm=0.70292 60s
+2026-11-24T04:59:55 DONE  SRM1_M6_cl_ester2_dp exit=0 gnorm=0.85254 80s
+2026-11-24T05:00:00 ALL DONE in 4 min

@@ -1,0 +1,162 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v23.2.5                                **
+ **                                                                           **
+ *******************************************************************************
+ ** MOPAC's Digital Object Identifier: https://doi.org/10.5281/zenodo.6511958 **
+ **                                                                           **
+ ** Please cite the open-source release paper for use of this MOPAC version:  **
+ ** J. E. Moussa and J. J. P. Stewart (2026)                                  **
+ ** MOPAC: An open-source semiempirical molecular orbital program             **
+ ** J. Open Source Softw., 11(119), 8025, https://doi.org/10.21105/joss.08025 **
+ *******************************************************************************
+
+                              RM1 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE: (MAX THREADS = 2)              Mon Nov 23 17:07:42 2026  *
+ *  SPARKLE    - Use SPARKLES when they exist.
+ *  RM1        - The RM1 Hamiltonian to be used
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  1SCF       - DO 1 SCF AND THEN STOP 
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *******************************************************************************
+RM1 SPARKLE CHARGE=0 1SCF
+ SRM1_water_lig rigid ligand water
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       O          0.00000000      0.00000000      0.00000000   
+     2       H          0.76000000      0.59000000      0.00000000   
+     3       H         -0.76000000      0.59000000      0.00000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         O          0.0000      0.0000      0.0000
+     2         H          0.7600      0.5900      0.0000
+     3         H         -0.7600      0.5900      0.0000
+
+  H: (RM1): G.B. ROCHA, R.O. FREIRE, A.M.SIMAS, J.J.P. STEWART, J. COMP. CHEM. 27, 1101 (2006)
+  O: (RM1): G.B. ROCHA, R.O. FREIRE, A.M.SIMAS, J.J.P. STEWART, J. COMP. CHEM. 27, 1101 (2006)
+
+           Empirical Formula: H2 O  =     3 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C2v 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 4
+
+
+ -------------------------------------------------------------------------------
+ RM1 SPARKLE CHARGE=0 1SCF
+ SRM1_water_lig rigid ligand water
+
+
+
+     1SCF WAS SPECIFIED, SO BFGS WAS NOT USED                 
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              RM1 CALCULATION
+                                                       MOPAC v23.2.5 Windows
+                                                       Mon Nov 23 17:07:42 2026
+
+
+
+
+          FINAL HEAT OF FORMATION =        -57.80445 KCAL/MOL =    -241.85384 KJ/MOL
+
+
+          COSMO AREA              =         42.47 SQUARE ANGSTROMS
+          COSMO VOLUME            =         25.20 CUBIC ANGSTROMS
+
+          IONIZATION POTENTIAL    =         12.245291 EV
+          HOMO LUMO ENERGIES (EV) =        -12.245  4.072
+          NO. OF FILLED LEVELS    =          4
+          MOLECULAR WEIGHT        =         18.0152         POINT GROUP:  C2v 
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H     3    H     2     1.52000
+            H     2    O     1     0.59000
+            O     1    H     2     0.00000
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         =      0.012 SECONDS
+          COMPUTATION TIME        =      0.016 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       O          0.00000000      0.00000000      0.00000000   
+     2       H          0.76000000      0.59000000      0.00000000   
+     3       H         -0.76000000      0.59000000      0.00000000   
+
+                             CARTESIAN COORDINATES
+
+   1    O        0.000000000     0.000000000     0.000000000
+   2    H        0.760000000     0.590000000     0.000000000
+   3    H       -0.760000000     0.590000000     0.000000000
+
+
+           Empirical Formula: H2 O  =     3 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C2v 
+
+
+                  EIGENVALUES  
+ -35.19593 -17.74443 -14.34573 -12.24529   4.07205   5.83050
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          O          -0.371539        6.3715     1.83300     4.53854
+    2          H           0.185770        0.8142     0.81423
+    3          H           0.185770        0.8142     0.81423
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -0.000     1.053     0.000     1.053
+ HYBRID         0.000     0.814    -0.000     0.814
+ SUM           -0.000     1.867    -0.000     1.867
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  O   1.83300   1.18151   1.35702   2.00000
+    2  H   0.81423
+    3  H   0.81423
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.02 SECONDS
+
+ == MOPAC DONE ==

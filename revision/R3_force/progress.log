@@ -1,0 +1,250 @@
+2026-11-23T19:10:22 START: 124 pending jobs, MaxParallel=13
+2026-11-23T19:10:22 START PM7_A6_cl_bid_force (stage 0)
+2026-11-23T19:10:22 START PM7_A6_cl_mono2_force (stage 0)
+2026-11-23T19:10:22 START PM7_A6_h2_bid_force (stage 0)
+2026-11-23T19:10:22 START PM7_A6_h2_bid_cw0_force (stage 0)
+2026-11-23T19:10:22 START PM7_A6_h2_mono2_force (stage 0)
+2026-11-23T19:10:22 START PM7_A6_h3_bid_force (stage 0)
+2026-11-23T19:10:22 START PM7_B2_cl_bid_force (stage 0)
+2026-11-23T19:10:22 START PM7_B2_cl_hyd_force (stage 0)
+2026-11-23T19:10:22 START PM7_B2_cl_mono2_force (stage 0)
+2026-11-23T19:10:22 START PM7_B2_h2_bid_force (stage 0)
+2026-11-23T19:10:22 START PM7_B2_h2_hyd_force (stage 0)
+2026-11-23T19:10:22 START PM7_B2_h3_bid_force (stage 0)
+2026-11-23T19:10:22 START PM7_B2_h3_hyd_force (stage 0)
+2026-11-23T19:20:18 DONE  PM7_A6_h2_bid_cw0_force exit=0 gnorm=226.00952 596s
+2026-11-23T19:20:18 START PM7_B2_h3_mono2_force (stage 0)
+2026-11-23T19:23:39 DONE  PM7_B2_h2_bid_force exit=0 gnorm=198.45946 797s
+2026-11-23T19:23:39 START PM7_B3_cl_bid_force (stage 0)
+2026-11-23T19:23:49 DONE  PM7_B2_h3_bid_force exit=0 gnorm=196.79175 807s
+2026-11-23T19:23:49 START PM7_B3_cl_hyd_force (stage 0)
+2026-11-23T19:23:54 DONE  PM7_B2_cl_bid_force exit=0 gnorm=208.22931 812s
+2026-11-23T19:23:54 START PM7_B3_cl_mono2_force (stage 0)
+2026-11-23T19:24:29 DONE  PM7_B2_cl_mono2_force exit=0 gnorm=170.2502 847s
+2026-11-23T19:24:29 START PM7_B3_h2_bid_force (stage 0)
+2026-11-23T19:24:54 DONE  PM7_B2_h2_hyd_force exit=0 gnorm=238.11315 872s
+2026-11-23T19:24:54 START PM7_B3_h2_bid_cw0_force (stage 0)
+2026-11-23T19:24:59 DONE  PM7_B2_cl_hyd_force exit=0 gnorm=239.87677 877s
+2026-11-23T19:24:59 START PM7_B3_h2_mono2_force (stage 0)
+2026-11-23T19:25:04 DONE  PM7_B2_h3_hyd_force exit=0 gnorm=266.84381 882s
+2026-11-23T19:25:04 START PM7_B3_h3_bid_force (stage 0)
+2026-11-23T19:25:39 DONE  PM7_A6_h2_bid_force exit=0 gnorm=215.13382 917s
+2026-11-23T19:25:39 START PM7_B3_h3_hyd_force (stage 0)
+2026-11-23T19:25:59 DONE  PM7_A6_cl_bid_force exit=0 gnorm=240.89704 937s
+2026-11-23T19:26:00 DONE  PM7_A6_h3_bid_force exit=0 gnorm=215.31237 937s
+2026-11-23T19:26:00 START PM7_B3_h3_mono2_force (stage 0)
+2026-11-23T19:26:00 START PM7_CTRL_acetate_bid_force (stage 0)
+2026-11-23T19:26:10 DONE  PM7_CTRL_acetate_bid_force exit=0 gnorm=161.88988 10s
+2026-11-23T19:26:10 START PM7_CTRL_Eu_w10_force (stage 0)
+2026-11-23T19:26:15 DONE  PM7_CTRL_Eu_w10_force exit=0 gnorm=213.35792 5s
+2026-11-23T19:26:15 START PM7_CTRL_Eu_w12_force (stage 0)
+2026-11-23T19:26:25 DONE  PM7_CTRL_Eu_w12_force exit=0 gnorm=213.53271 10s
+2026-11-23T19:26:25 START PM7_CTRL_Eu_w8_force (stage 0)
+2026-11-23T19:26:30 DONE  PM7_A6_h2_mono2_force exit=0 gnorm=252.07239 968s
+2026-11-23T19:26:30 DONE  PM7_CTRL_Eu_w8_force exit=0 gnorm=221.10944 5s
+2026-11-23T19:26:30 START PM7_CTRL_Eu_w9_force (stage 0)
+2026-11-23T19:26:30 START PM7_CTRL_GalA_bid_force (stage 0)
+2026-11-23T19:26:35 DONE  PM7_CTRL_Eu_w9_force exit=0 gnorm=213.6561 5s
+2026-11-23T19:26:35 DONE  PM7_A6_cl_mono2_force exit=0 gnorm=243.27143 973s
+2026-11-23T19:26:35 START PM7_CTRL_GalA_hyd_force (stage 0)
+2026-11-23T19:26:35 START PM7_CTRL_GalAMe_ester_force (stage 0)
+2026-11-23T19:26:55 DONE  PM7_CTRL_GalA_bid_force exit=0 gnorm=172.48222 25s
+2026-11-23T19:26:55 START PM7_CTRL_GalAMe_hyd_force (stage 0)
+2026-11-23T19:27:05 DONE  PM7_CTRL_GalA_hyd_force exit=0 gnorm=239.44167 30s
+2026-11-23T19:27:05 DONE  PM7_CTRL_GalAMe_ester_force exit=0 gnorm=190.38249 30s
+2026-11-23T19:27:05 START PM7_D2_cl_bid_force (stage 0)
+2026-11-23T19:27:05 START PM7_D2_cl_hyd_force (stage 0)
+2026-11-23T19:27:25 DONE  PM7_CTRL_GalAMe_hyd_force exit=0 gnorm=222.0983 30s
+2026-11-23T19:27:25 START PM7_D2_cl_mono2_force (stage 0)
+2026-11-23T19:34:06 DONE  PM7_B2_h3_mono2_force exit=0 gnorm=171.32911 828s
+2026-11-23T19:34:06 START PM7_D2_h2_bid_force (stage 0)
+2026-11-23T19:36:27 DONE  PM7_B3_h2_bid_cw0_force exit=0 gnorm=216.62283 692s
+2026-11-23T19:36:27 START PM7_D2_h2_hyd_force (stage 0)
+2026-11-23T19:37:17 DONE  PM7_B3_cl_bid_force exit=0 gnorm=212.30367 818s
+2026-11-23T19:37:17 START PM7_D2_h2_mono2_force (stage 0)
+2026-11-23T19:38:02 DONE  PM7_B3_h2_bid_force exit=0 gnorm=201.97244 813s
+2026-11-23T19:38:02 START PM7_D2_h3_bid_force (stage 0)
+2026-11-23T19:38:27 DONE  PM7_B3_cl_mono2_force exit=0 gnorm=219.78084 873s
+2026-11-23T19:38:27 START PM7_D2_h3_hyd_force (stage 0)
+2026-11-23T19:38:57 DONE  PM7_B3_h3_bid_force exit=0 gnorm=220.65565 833s
+2026-11-23T19:38:57 START PM7_D2_h3_mono2_force (stage 0)
+2026-11-23T19:39:02 DONE  PM7_B3_cl_hyd_force exit=0 gnorm=242.28061 913s
+2026-11-23T19:39:02 START PM7_H3alt_cl_bid_force (stage 0)
+2026-11-23T19:39:33 DONE  PM7_B3_h2_mono2_force exit=0 gnorm=184.94044 873s
+2026-11-23T19:39:33 START PM7_H3alt_cl_hyd_force (stage 0)
+2026-11-23T19:40:33 DONE  PM7_B3_h3_mono2_force exit=0 gnorm=186.19881 873s
+2026-11-23T19:40:33 START PM7_H3alt_cl_mono2_force (stage 0)
+2026-11-23T19:40:38 DONE  PM7_D2_cl_bid_force exit=0 gnorm=209.57871 813s
+2026-11-23T19:40:38 START PM7_H3alt_h2_bid_force (stage 0)
+2026-11-23T19:40:53 DONE  PM7_B3_h3_hyd_force exit=0 gnorm=256.69267 913s
+2026-11-23T19:40:53 DONE  PM7_D2_cl_mono2_force exit=0 gnorm=186.61131 808s
+2026-11-23T19:40:53 START PM7_H3alt_h2_hyd_force (stage 0)
+2026-11-23T19:40:53 START PM7_H3alt_h2_mono2_force (stage 0)
+2026-11-23T19:41:53 DONE  PM7_D2_cl_hyd_force exit=0 gnorm=227.75918 888s
+2026-11-23T19:41:53 START PM7_H3alt_h3_bid_force (stage 0)
+2026-11-23T19:47:54 DONE  PM7_D2_h2_bid_force exit=0 gnorm=195.77953 828s
+2026-11-23T19:47:54 START PM7_H3alt_h3_hyd_force (stage 0)
+2026-11-23T19:51:10 DONE  PM7_H3alt_cl_bid_force exit=0 gnorm=196.10062 727s
+2026-11-23T19:51:10 START PM7_H3alt_h3_mono2_force (stage 0)
+2026-11-23T19:51:20 DONE  PM7_D2_h2_hyd_force exit=0 gnorm=239.01662 893s
+2026-11-23T19:51:20 DONE  PM7_D2_h2_mono2_force exit=0 gnorm=198.37699 843s
+2026-11-23T19:51:20 START PM7_H3blk_cl_bid_force (stage 0)
+2026-11-23T19:51:20 START PM7_H3blk_cl_hyd_force (stage 0)
+2026-11-23T19:51:40 DONE  PM7_D2_h3_bid_force exit=0 gnorm=199.04493 818s
+2026-11-23T19:51:40 START PM7_H3blk_cl_mono2_force (stage 0)
+2026-11-23T19:52:15 DONE  PM7_D2_h3_mono2_force exit=0 gnorm=200.79778 798s
+2026-11-23T19:52:15 START PM7_H3blk_h2_bid_force (stage 0)
+2026-11-23T19:52:40 DONE  PM7_H3alt_h2_bid_force exit=0 gnorm=220.42632 722s
+2026-11-23T19:52:40 START PM7_H3blk_h2_hyd_force (stage 0)
+2026-11-23T19:53:05 DONE  PM7_H3alt_cl_hyd_force exit=0 gnorm=232.7462 813s
+2026-11-23T19:53:05 START PM7_H3blk_h2_mono2_force (stage 0)
+2026-11-23T19:53:10 DONE  PM7_H3alt_cl_mono2_force exit=0 gnorm=214.8665 757s
+2026-11-23T19:53:10 START PM7_H3blk_h3_bid_force (stage 0)
+2026-11-23T19:53:15 DONE  PM7_D2_h3_hyd_force exit=0 gnorm=234.33038 888s
+2026-11-23T19:53:15 START PM7_H3blk_h3_hyd_force (stage 0)
+2026-11-23T19:53:40 DONE  PM7_H3alt_h2_mono2_force exit=0 gnorm=203.89333 767s
+2026-11-23T19:53:40 START PM7_H3blk_h3_mono2_force (stage 0)
+2026-11-23T19:54:06 DONE  PM7_H3alt_h3_bid_force exit=0 gnorm=222.49213 732s
+2026-11-23T19:54:06 START PM7_L3_cl_bid_force (stage 0)
+2026-11-23T19:54:21 DONE  PM7_H3alt_h2_hyd_force exit=0 gnorm=231.9638 808s
+2026-11-23T19:54:21 START PM7_L3_cl_hyd_force (stage 0)
+2026-11-23T20:01:27 DONE  PM7_H3alt_h3_hyd_force exit=0 gnorm=235.77302 812s
+2026-11-23T20:01:27 START PM7_L3_cl_mono2_force (stage 0)
+2026-11-23T20:03:42 DONE  PM7_H3blk_cl_bid_force exit=0 gnorm=218.13033 742s
+2026-11-23T20:03:42 START PM7_L3_h2_bid_force (stage 0)
+2026-11-23T20:04:12 DONE  PM7_H3alt_h3_mono2_force exit=0 gnorm=209.35119 783s
+2026-11-23T20:04:12 START PM7_L3_h2_bid_cw0_force (stage 0)
+2026-11-23T20:04:22 DONE  PM7_H3blk_h2_bid_force exit=0 gnorm=213.33539 727s
+2026-11-23T20:04:22 START PM7_L3_h2_bid_cw4_force (stage 0)
+2026-11-23T20:04:37 DONE  PM7_H3blk_cl_mono2_force exit=0 gnorm=229.6823 777s
+2026-11-23T20:04:37 DONE  PM7_H3blk_cl_hyd_force exit=0 gnorm=241.91421 798s
+2026-11-23T20:04:37 START PM7_L3_h2_hyd_force (stage 0)
+2026-11-23T20:04:37 START PM7_L3_h2_mono2_force (stage 0)
+2026-11-23T20:05:23 DONE  PM7_H3blk_h3_bid_force exit=0 gnorm=210.70041 732s
+2026-11-23T20:05:23 START PM7_L3_h3_bid_force (stage 0)
+2026-11-23T20:05:43 DONE  PM7_H3blk_h2_mono2_force exit=0 gnorm=237.37755 757s
+2026-11-23T20:05:43 START PM7_L3_h3_hyd_force (stage 0)
+2026-11-23T20:05:58 DONE  PM7_H3blk_h2_hyd_force exit=0 gnorm=244.43851 798s
+2026-11-23T20:05:58 START PM7_L3_h3_mono2_force (stage 0)
+2026-11-23T20:06:28 DONE  PM7_H3blk_h3_mono2_force exit=0 gnorm=217.7241 767s
+2026-11-23T20:06:28 START PM7_M6_cl_hyd_force (stage 0)
+2026-11-23T20:06:43 DONE  PM7_H3blk_h3_hyd_force exit=0 gnorm=263.03584 808s
+2026-11-23T20:06:43 START PM7_M6_h2_hyd_force (stage 0)
+2026-11-23T20:08:18 DONE  PM7_L3_cl_bid_force exit=0 gnorm=220.9509 853s
+2026-11-23T20:08:18 START PM7_M6_h3_hyd_force (stage 0)
+2026-11-23T20:09:54 DONE  PM7_L3_cl_hyd_force exit=0 gnorm=219.36479 933s
+2026-11-23T20:09:54 START PM7_P3_cl_bid_force (stage 0)
+2026-11-23T20:15:44 DONE  PM7_L3_cl_mono2_force exit=0 gnorm=230.90115 858s
+2026-11-23T20:15:44 START PM7_P3_cl_hyd_force (stage 0)
+2026-11-23T20:15:50 DONE  PM7_L3_h2_bid_cw0_force exit=0 gnorm=215.83572 697s
+2026-11-23T20:15:50 START PM7_P3_cl_mono2_force (stage 0)
+2026-11-23T20:17:45 DONE  PM7_L3_h2_bid_force exit=0 gnorm=205.5553 843s
+2026-11-23T20:17:45 START PM7_P3_h2_bid_cw0_force (stage 0)
+2026-11-23T20:19:05 DONE  PM7_L3_h2_mono2_force exit=0 gnorm=208.7074 868s
+2026-11-23T20:19:05 START PM7_P3_h2_bid_cw4_force (stage 0)
+2026-11-23T20:19:20 DONE  PM7_L3_h3_bid_force exit=0 gnorm=209.59559 838s
+2026-11-23T20:19:20 START PM7_P3_h2_hyd_force (stage 0)
+2026-11-23T20:19:35 DONE  PM7_L3_h2_hyd_force exit=0 gnorm=216.91569 898s
+2026-11-23T20:19:35 START PM7_P3_h2_mono2_force (stage 0)
+2026-11-23T20:20:05 DONE  PM7_M6_cl_hyd_force exit=0 gnorm=227.77441 817s
+2026-11-23T20:20:06 START PM7_P3_h3_bid_force (stage 0)
+2026-11-23T20:20:16 DONE  PM7_M6_h2_hyd_force exit=0 gnorm=237.18114 813s
+2026-11-23T20:20:16 START PM7_P3_h3_hyd_force (stage 0)
+2026-11-23T20:20:31 DONE  PM7_L3_h3_mono2_force exit=0 gnorm=204.7523 873s
+2026-11-23T20:20:31 START PM7_P3_h3_mono2_force (stage 0)
+2026-11-23T20:20:51 DONE  PM7_L3_h3_hyd_force exit=0 gnorm=243.47974 908s
+2026-11-23T20:20:51 START PM7_S1_cl_bid_force (stage 0)
+2026-11-23T20:20:56 DONE  PM7_L3_h2_bid_cw4_force exit=0 gnorm=200.77064 994s
+2026-11-23T20:20:56 START PM7_S1_cl_hyd_force (stage 0)
+2026-11-23T20:21:46 DONE  PM7_M6_h3_hyd_force exit=0 gnorm=219.45923 808s
+2026-11-23T20:21:46 START PM7_S1_h2_bid_force (stage 0)
+2026-11-23T20:23:46 DONE  PM7_P3_cl_bid_force exit=0 gnorm=191.98887 833s
+2026-11-23T20:23:46 START PM7_S1_h2_hyd_force (stage 0)
+2026-11-23T20:28:17 DONE  PM7_P3_h2_bid_cw0_force exit=0 gnorm=208.43713 632s
+2026-11-23T20:28:17 START PM7_S1_h3_bid_force (stage 0)
+2026-11-23T20:30:27 DONE  PM7_P3_cl_mono2_force exit=0 gnorm=220.20481 878s
+2026-11-23T20:30:27 START PM7_S1_h3_hyd_force (stage 0)
+2026-11-23T20:30:48 DONE  PM7_P3_cl_hyd_force exit=0 gnorm=240.62784 903s
+2026-11-23T20:30:48 START RM1_B2_cl_mono2_force (stage 0)
+2026-11-23T20:33:38 DONE  PM7_S1_cl_bid_force exit=0 gnorm=181.03403 767s
+2026-11-23T20:33:38 START RM1_B2_h2_mono2_force (stage 0)
+2026-11-23T20:34:08 DONE  PM7_P3_h3_bid_force exit=0 gnorm=233.43158 843s
+2026-11-23T20:34:08 START RM1_B2_h3_bid_force (stage 0)
+2026-11-23T20:34:23 DONE  PM7_P3_h2_mono2_force exit=0 gnorm=198.98142 888s
+2026-11-23T20:34:23 START RM1_B2_h3_mono2_force (stage 0)
+2026-11-23T20:34:33 DONE  PM7_S1_h2_bid_force exit=0 gnorm=185.69953 767s
+2026-11-23T20:34:33 START RM1_B3_cl_bid_force (stage 0)
+2026-11-23T20:34:53 DONE  PM7_P3_h2_hyd_force exit=0 gnorm=246.02141 933s
+2026-11-23T20:34:53 START RM1_B3_cl_mono2_force (stage 0)
+2026-11-23T20:35:04 DONE  PM7_P3_h3_mono2_force exit=0 gnorm=212.38634 873s
+2026-11-23T20:35:04 DONE  PM7_S1_cl_hyd_force exit=0 gnorm=202.33669 848s
+2026-11-23T20:35:04 START RM1_B3_h2_mono2_force (stage 0)
+2026-11-23T20:35:04 START RM1_B3_h3_bid_force (stage 0)
+2026-11-23T20:35:44 DONE  PM7_P3_h3_hyd_force exit=0 gnorm=216.67162 928s
+2026-11-23T20:35:44 START RM1_B3_h3_mono2_force (stage 0)
+2026-11-23T20:37:04 DONE  PM7_P3_h2_bid_cw4_force exit=0 gnorm=196.69454 1079s
+2026-11-23T20:37:04 START RM1_CTRL_acetate_bid_force (stage 0)
+2026-11-23T20:37:14 DONE  RM1_CTRL_acetate_bid_force exit=0 gnorm=76.32848 10s
+2026-11-23T20:37:14 START RM1_CTRL_Eu_w10_force (stage 0)
+2026-11-23T20:37:24 DONE  RM1_CTRL_Eu_w10_force exit=0 gnorm=95.98578 10s
+2026-11-23T20:37:24 START RM1_CTRL_Eu_w12_force (stage 0)
+2026-11-23T20:37:34 DONE  RM1_CTRL_Eu_w12_force exit=0 gnorm=113.51617 10s
+2026-11-23T20:37:34 START RM1_CTRL_Eu_w8_force (stage 0)
+2026-11-23T20:37:39 DONE  RM1_CTRL_Eu_w8_force exit=0 gnorm=77.55083 5s
+2026-11-23T20:37:39 START RM1_CTRL_Eu_w9_force (stage 0)
+2026-11-23T20:37:49 DONE  RM1_CTRL_Eu_w9_force exit=0 gnorm=67.75362 10s
+2026-11-23T20:37:49 START RM1_CTRL_GalA_bid_force (stage 0)
+2026-11-23T20:37:54 DONE  PM7_S1_h2_hyd_force exit=0 gnorm=224.30314 848s
+2026-11-23T20:37:54 START RM1_CTRL_GalAMe_ester_force (stage 0)
+2026-11-23T20:38:19 DONE  RM1_CTRL_GalA_bid_force exit=0 gnorm=82.34079 30s
+2026-11-23T20:38:20 START RM1_CTRL_GalAMe_hyd_force (stage 0)
+2026-11-23T20:38:30 DONE  RM1_CTRL_GalAMe_ester_force exit=0 gnorm=89.89475 35s
+2026-11-23T20:38:30 START RM1_H3alt_cl_bid_force (stage 0)
+2026-11-23T20:39:00 DONE  RM1_CTRL_GalAMe_hyd_force exit=0 gnorm=112.83777 40s
+2026-11-23T20:39:00 START RM1_H3alt_cl_mono2_force (stage 0)
+2026-11-23T20:41:05 DONE  PM7_S1_h3_bid_force exit=0 gnorm=192.14505 768s
+2026-11-23T20:41:05 START RM1_H3alt_h2_bid_force (stage 0)
+2026-11-23T20:44:35 DONE  PM7_S1_h3_hyd_force exit=0 gnorm=231.90596 848s
+2026-11-23T20:44:36 START RM1_H3alt_h2_mono2_force (stage 0)
+2026-11-23T20:44:51 DONE  RM1_B2_cl_mono2_force exit=0 gnorm=150.61347 843s
+2026-11-23T20:44:51 START RM1_H3blk_cl_mono2_force (stage 0)
+2026-11-23T20:47:41 DONE  RM1_B2_h2_mono2_force exit=0 gnorm=122.33899 843s
+2026-11-23T20:47:41 START RM1_H3blk_h3_mono2_force (stage 0)
+2026-11-23T20:47:46 DONE  RM1_B2_h3_bid_force exit=0 gnorm=137.58254 818s
+2026-11-23T20:47:46 START RM1_L3_cl_bid_force (stage 0)
+2026-11-23T20:48:36 DONE  RM1_B2_h3_mono2_force exit=0 gnorm=49.03986 853s
+2026-11-23T20:48:36 START RM1_L3_h2_bid_force (stage 0)
+2026-11-23T20:48:41 DONE  RM1_B3_cl_bid_force exit=0 gnorm=120.69627 848s
+2026-11-23T20:48:41 START RM1_L3_h2_bid_cw0_force (stage 0)
+2026-11-23T20:49:11 DONE  RM1_B3_h3_bid_force exit=0 gnorm=175.67389 848s
+2026-11-23T20:49:11 START RM1_L3_h2_bid_cw4_force (stage 0)
+2026-11-23T20:49:42 DONE  RM1_B3_cl_mono2_force exit=0 gnorm=124.69371 888s
+2026-11-23T20:49:42 START RM1_L3_h2_mono2_force (stage 0)
+2026-11-23T20:49:47 DONE  RM1_B3_h2_mono2_force exit=0 gnorm=114.82353 883s
+2026-11-23T20:49:47 START RM1_L3_h3_mono2_force (stage 0)
+2026-11-23T20:50:27 DONE  RM1_B3_h3_mono2_force exit=0 gnorm=102.67665 883s
+2026-11-23T20:50:27 START RM1_M6_cl_ester_force (stage 0)
+2026-11-23T20:55:38 DONE  RM1_L3_h3_mono2_force exit=0 gnorm=1000000000 351s
+2026-11-23T20:55:38 START RM1_M6_h2_ester_force (stage 0)
+2026-11-23T20:57:28 DONE  RM1_H3blk_cl_mono2_force exit=0 gnorm=137.86221 757s
+2026-11-23T20:57:28 START RM1_M6_h3_ester_force (stage 0)
+2026-11-23T20:58:18 DONE  RM1_H3alt_cl_mono2_force exit=0 gnorm=190.56673 1158s
+2026-11-23T20:58:18 START RM1_S1_cl_bid_force (stage 0)
+2026-11-23T20:59:53 DONE  RM1_H3alt_cl_bid_force exit=0 gnorm=196.86947 1284s
+2026-11-23T20:59:53 START RM1_S1_h2_bid_force (stage 0)
+2026-11-23T21:00:03 DONE  RM1_H3blk_h3_mono2_force exit=0 gnorm=113.71832 742s
+2026-11-23T21:00:04 START RM1_S1_h3_bid_force (stage 0)
+2026-11-23T21:01:29 DONE  RM1_L3_cl_bid_force exit=0 gnorm=196.93693 823s
+2026-11-23T21:03:44 DONE  RM1_H3alt_h2_mono2_force exit=0 gnorm=154.29306 1149s
+2026-11-23T21:03:49 DONE  RM1_M6_cl_ester_force exit=0 gnorm=130.46324 802s
+2026-11-23T21:03:54 DONE  RM1_L3_h2_mono2_force exit=0 gnorm=159.85978 853s
+2026-11-23T21:05:09 DONE  RM1_L3_h2_bid_cw0_force exit=0 gnorm=178.09551 988s
+2026-11-23T21:05:09 DONE  RM1_L3_h2_bid_cw4_force exit=0 gnorm=183.22585 958s
+2026-11-23T21:08:20 DONE  RM1_L3_h2_bid_force exit=0 gnorm=188.81461 1184s
+2026-11-23T21:08:20 DONE  RM1_M6_h2_ester_force exit=0 gnorm=89.32614 762s
+2026-11-23T21:09:35 DONE  RM1_S1_cl_bid_force exit=0 gnorm=112.2534 677s
+2026-11-23T21:09:45 DONE  RM1_M6_h3_ester_force exit=0 gnorm=123.62163 737s
+2026-11-23T21:10:35 DONE  RM1_S1_h3_bid_force exit=0 gnorm=108.22799 632s
+2026-11-23T21:10:40 DONE  RM1_S1_h2_bid_force exit=0 gnorm=102.4131 647s
+2026-11-23T21:14:51 DONE  RM1_H3alt_h2_bid_force exit=0 gnorm=185.02027 2026s
+2026-11-23T21:14:56 ALL DONE in 125 min

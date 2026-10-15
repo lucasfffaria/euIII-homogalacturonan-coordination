@@ -1,0 +1,18 @@
+structure,cod_id,complex_formula,charge,n_atoms,n_Eu,ligands,donors_within_3A,CN,mean_EuO_xray,T_K,R_obs,year,journal,doi,note
+XB01_aqua8a,7209926,H16EuO8,3,25,1,8 x O,water x 8,8.0,2.4051,100.1,0.027,2013,CrystEngComm,10.1039/c3ce40431e,
+XB02_aqua8b,7201013,H16EuO8,3,25,1,8 x O,water x 8,8.0,2.3909,186,0.0355,2009,CrystEngComm,10.1039/b903020d,
+XB03_aqua9,2102807,H18EuO9,3,28,1,9 x O,water x 9,9.0,2.4607,299,0.0542,2007,Acta Crystallographica Section B,10.1107/S0108768106049032,"H atoms of the nine water molecules are not in the CIF; added geometrically (O-H 0.96 A, H-O-H 104.5 deg)"
+XB04_TFA2_w6,7028020,C4H12EuF6O10,1,33,1,6 x O; 2 x O=C([O-])C(F)(F)F (-1),water x 6; carboxylate x 2,8.0,2.4114,123,0.0287,1998,"Journal of the Chemical Society, Dalton Transactions",10.1039/a805492d,
+XB05_ODA3,7715872,C12H12EuO15,-3,40,1,3 x O=C([O-])COCC(=O)[O-] (-2),carboxylate x 6; ether x 3,9.0,2.4264,100,0.0378,2024,"Dalton transactions (Cambridge, England : 2003)",10.1039/d4dt00157e,
+XB06_MAA_dimer,2217178,C24H38Eu2O16,0,80,2,6 x C=C(C)C(=O)[O-] (-1); 4 x O,carboxylate x 14; water x 4,9.0,2.4773,293,0.0263,2008,Acta Crystallographica Section E,10.1107/S1600536807065609,
+XB07_HBA_dimer,7062635,C42H38Eu2O22,0,104,2,6 x O=C([O-])c1ccc(O)cc1 (-1); 4 x O,carboxylate x 12; water x 4,8.0,2.3973,123,0.0355,2023,New Journal of Chemistry,10.1039/D3NJ02735J,
+XB08_DCS_dimer,1543204,C21H31Cl6Eu2O20,3,80,2,11 x O; 3 x O=C([O-])c1cc(Cl)cc(Cl)c1O (-1),water x 11; carboxylate x 5,8.0,2.404,100,0.0401,2016,Photochemical & photobiological sciences : Official journal of the European Photochemistry Association and the European Society for Photobiology,10.1039/c6pp00059b,
+XB09_oxalate_dimer,7044674,C16H34Eu2O28S2,2,82,2,12 x O; 2 x O=C(O)c1ccc(S(=O)(=O)[O-])c(O)c1 (-1); 1 x O=C([O-])C(=O)[O-] (-2),water x 12; carboxylate x 4; sulfonate x 2,9.0,2.456,295,0.0339,2017,Dalton Transactions,10.1039/C7DT03254D,
+XB10_TPA3_MeOH4,2020541,C64H61EuO10,0,136,1,4 x CO; 3 x O=C([O-])C(c1ccccc1)(c1ccccc1)c1ccccc1 (-1),carboxylate x 5; alcohol OH x 4,9.0,2.4605,120,0.0352,2016,Acta Crystallographica Section C,10.1107/S2053229616009748,
+XB11_ArO3_DME2,4307878,C26H20EuF15O7,0,69,1,3 x [O-]c1c(F)c(F)c(F)c(F)c1F (-1); 2 x COCCOC,ether x 4; aryloxide x 3,7.0,2.3713,100,0.0212,2007,Inorganic Chemistry,10.1021/ic062395e,
+XB12_dik3_diglyme,1547880,C36H17EuF24O9,0,87,1,3 x O=C(/C=C(\[O-])C(F)(F)F)c1c(F)c(F)c(F)c(F)c1F (-1); 1 x COCCOCCOC,diketonate x 6; ether x 3,9.0,2.4482,180,0.0607,2018,Chemical science,10.1039/c7sc03710d,
+XB13_TMDGA3,7040442,C24H48EuN6O9,3,88,1,3 x CN(C)C(=O)COCC(=O)N(C)C,amide C=O x 6; ether x 3,9.0,2.4244,270,0.0356,2016,"Dalton transactions (Cambridge, England : 2003)",10.1039/c6dt02930b,
+XB14_dik3_AcOH3,7114347,C21H12EuF21O12,0,67,1,3 x O=C(/C(F)=C(\[O-])C(F)(F)F)C(F)(F)F (-1); 3 x CC(=O)O,diketonate x 6; carboxylic acid C=O x 3,9.0,2.4431,173,0.0276,2002,Chemical Communications,10.1039/b111249j,
+XB15_dik3_w2,4329032,C33H22EuF9O8,0,73,1,2 x O=C(C1=C([O-])c2ccccc2C1)C(F)(F)F (-1); 2 x O; 1 x O=C1/C(=C(\[O-])C(F)(F)F)Cc2ccccc21 (-1),diketonate x 6; water x 2,8.0,2.4028,293,0.0476,2012,Inorganic Chemistry,10.1021/ic202473b,
+XB16_FBA_dimer,7061033,C56H38Eu2F8O18,0,122,2,6 x O=C([O-])c1ccccc1F (-1); 2 x O=C(O)c1ccccc1F; 2 x O,carboxylate x 14; carboxylic acid C=O x 2; water x 2,9.0,2.4536,100,0.0199,2021,New Journal of Chemistry,10.1039/D1NJ04335H,
+XB17_ArO3_THF3,7018331,C48H75EuO6,0,130,1,3 x CC(C)c1cccc(C(C)C)c1[O-] (-1); 3 x C1CCOC1,aryloxide x 3; ether x 3,6.0,2.329,123,0.0479,2012,"Dalton transactions (Cambridge, England : 2003)",10.1039/c2dt11752e,

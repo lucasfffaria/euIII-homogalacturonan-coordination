@@ -1,0 +1,10 @@
+Pair,Model,pairs,dfp >0/=0/<0,median dfp (range),d residues >0/=0/<0,pairs with an extra carboxylate,multi-COO in block / alternating
+H3blk vs H3alt (DM 0 (protonation variants)),Sparkle/PM7+EuO,6,1 / 2 / 3,-0.032 (-0.125 to +0.018),0 / 4 / 2,0.0,0 of 6 / 0 of 6
+H3blk vs H3alt (DM 0 (protonation variants)),Sparkle/RM1,6,1 / 2 / 3,-0.032 (-0.125 to +0.018),0 / 4 / 2,0.0,0 of 6 / 0 of 6
+H3blk vs H3alt (DM 0 (protonation variants)),RM1,1,0 / 1 / 0,+0.000 (+0.000 to +0.000),0 / 1 / 0,1.0,2 of 2 / 0 of 4
+B3 vs L3 (DM 50),Sparkle/PM7+EuO,6,3 / 3 / 0,+0.014 (+0.000 to +0.125),0 / 6 / 0,0.0,0 of 6 / 0 of 6
+B3 vs L3 (DM 50),Sparkle/RM1,6,3 / 2 / 1,+0.014 (-0.107 to +0.125),0 / 5 / 1,0.0,0 of 6 / 0 of 6
+B3 vs L3 (DM 50),RM1,3,2 / 0 / 1,+0.167 (-0.067 to +0.194),1 / 2 / 0,3.0,4 of 5 / 0 of 4
+B2 vs D2 (DM 67),Sparkle/PM7+EuO,5,2 / 2 / 1,+0.000 (-0.079 to +0.125),1 / 4 / 0,0.0,0 of 5 / 0 of 6
+B2 vs D2 (DM 67),Sparkle/RM1,6,3 / 2 / 1,+0.014 (-0.079 to +0.250),2 / 4 / 0,0.0,0 of 6 / 0 of 6
+B2 vs D2 (DM 67),RM1,0,,,,,

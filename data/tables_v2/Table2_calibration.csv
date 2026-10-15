@@ -1,0 +1,15 @@
+Quantity,Sparkle/PM7,Sparkle/PM7+EuO,Sparkle/RM1,RM1
+scan: H2O,2.4 / -32 [global: 3.4 / -33],2.4 / -51,2.5 / -25 [global: 3.6 / -27],2.3 / -109
+"scan: CH3OH, neutral hydroxyl",2.4 / -37,2.4 / -57,2.5 / -30,2.3 / -120
+"scan: (CH3)2O, ring/glycosidic O",2.4 / -38 [global: 3.4 / -39],2.4 / -57,2.5 / -30,2.3 / -137
+"scan: CH3COOCH3, ester C=O",2.3 / -73,2.3 / -92,2.4 / -56,2.3 / -160
+"scan: CH3COO-, bidentate",2.2 / -343,2.3 / -376,2.4 / -339,2.4 / -538
+"scan: CH3O-, localised anion (stress test)",1.4 / -451,2.1 / -422,2.3 / -371,2.2 / -556
+[Eu(H2O)8]3+ optimised: mean Eu-O (A),2.466,2.455,2.517,2.428
+[Eu(H2O)9]3+ optimised: mean Eu-O (A),2.472,2.460,2.522,2.447
+"Eu-O(carboxylate), GalA monomer chelate (A)",1.996,2.463,2.397,2.450
+"Eu-O(carboxylate), acetate chelate (A)",1.985,2.458,2.400,2.443
+"shortest Eu-O, GalA monomer chelate (A)",1.492,2.454,2.393,2.419
+"shortest Eu-O, acetate chelate (A)",1.456,2.453,2.399,2.420
+"CN from 8, 9, 10 and 12 waters","8, 9, 9, 9","8, 9, 9, 9","8, 9, 9, 9","8, 9, 9, 9"
+"ninth-water binding, E(w9) - E(w8) (kcal/mol)",-52.6,-71.3,-57.0,-100.2

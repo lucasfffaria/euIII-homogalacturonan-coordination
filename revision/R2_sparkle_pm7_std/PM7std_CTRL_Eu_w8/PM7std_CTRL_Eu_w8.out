@@ -1,0 +1,459 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v23.2.5                                **
+ **                                                                           **
+ *******************************************************************************
+ ** MOPAC's Digital Object Identifier: https://doi.org/10.5281/zenodo.6511958 **
+ **                                                                           **
+ ** Please cite the open-source release paper for use of this MOPAC version:  **
+ ** J. E. Moussa and J. J. P. Stewart (2026)                                  **
+ ** MOPAC: An open-source semiempirical molecular orbital program             **
+ ** J. Open Source Softw., 11(119), 8025, https://doi.org/10.21105/joss.08025 **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE: (MAX THREADS = 2)              Mon Nov 23 17:35:32 2026  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  SPARKLE    - Use SPARKLES when they exist.
+ *  GEO-OK     - OVERRIDE INTERATOMIC DISTANCE AND OTHER SAFETY CHECKS
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = +3
+ *
+ *
+ *
+ *  LET        - OVERRIDE SOME SAFETY CHECKS
+ *  EF         - USE EF ROUTINE FOR MINIMUM SEARCH
+ *  THREADS    - USE UP TO 2 THREADS
+ *  T=         - A TIME OF 3.0 DAYS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 30.0 MINUTES REQUESTED
+ *  CYCLES=    - DO A MAXIMUM OF 3000 STEPS
+ *  GNORM      - EXIT WHEN GRADIENT NORM DROPS BELOW 1.000
+ *  AUX        - OUTPUT AUXILIARY INFORMATION
+ *  BONDS      - FINAL BOND-ORDER MATRIX TO BE PRINTED
+ *******************************************************************************
+PM7 SPARKLE CHARGE=3 AUX GNORM=1.0 CYCLES=3000 THREADS=2 GEO-OK T=3D DUMP=30M BONDS EF LET
+ PM7std_CTRL_Eu_w8 [Eu(H2O)8]3+ gas-phase cluster | Sparkle/PM7 as distributed (no EXTERNAL), same start as PM7_CTRL_Eu_w8
+
+  ATOM    CHEMICAL      BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER    SYMBOL       (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                     NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1      Eu          0.00000000  *    0.0000000  *    0.0000000  *     0     0     0
+     2       O          0.43507600  *   -1.1190210  *    2.1700000  *     0     0     0
+     3       O         -1.73612600  *    0.8566010  *    1.5500000  *     0     0     0
+     4       O          2.20739300  *    0.6425850  *    0.9300000  *     0     0     0
+     5       O         -1.27746400  *   -2.1029470  *    0.3100000  *     0     0     0
+     6       O         -0.47855800  *    2.4135620  *   -0.3100000  *     0     0     0
+     7       O          1.85302000  *   -1.3608150  *   -0.9300000  *     0     0     0
+     8       O         -1.92462800  *   -0.2090660  *   -1.5500000  *     0     0     0
+     9       O          0.79254400  *    0.9018730  *   -2.1700000  *     0     0     0
+    10       H          0.96000000     127.7500000  * -139.4982000  *     2     1     5
+    11       H          0.96000000     127.7500000  *   40.5018000  *     2     1     5
+    12       H          0.96000000     127.7500000  * -144.2235000  *     3     1     5
+    13       H          0.96000000     127.7500000  *   35.7765000  *     3     1     5
+    14       H          0.96000000     127.7500000  *  172.3887000  *     4     1     5
+    15       H          0.96000000     127.7500000  *   -7.6113000  *     4     1     5
+    16       H          0.96000000     127.7500000  *  116.8250000  *     5     1     7
+    17       H          0.96000000     127.7500000  *  -63.1750000  *     5     1     7
+    18       H          0.96000000     127.7500000  *  -91.3626000  *     6     1     5
+    19       H          0.96000000     127.7500000  *   88.6374000  *     6     1     5
+    20       H          0.96000000     127.7500000  *  -54.4101000  *     7     1     5
+    21       H          0.96000000     127.7500000  *  125.5899000  *     7     1     5
+    22       H          0.96000000     127.7500000  *  -21.2347000  *     8     1     5
+    23       H          0.96000000     127.7500000  *  158.7653000  *     8     1     5
+    24       H          0.96000000     127.7500000  *  -25.2839000  *     9     1     5
+    25       H          0.96000000     127.7500000  *  154.7161000  *     9     1     5
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1        Eu          0.0000      0.0000      0.0000
+     2         O          0.4351     -1.1190      2.1700
+     3         O         -1.7361      0.8566      1.5500
+     4         O          2.2074      0.6426      0.9300
+     5         O         -1.2775     -2.1029      0.3100
+     6         O         -0.4786      2.4136     -0.3100
+     7         O          1.8530     -1.3608     -0.9300
+     8         O         -1.9246     -0.2091     -1.5500
+     9         O          0.7925      0.9019     -2.1700
+    10         H          0.5382     -0.7096      3.0322
+    11         H          0.5382     -2.0589      2.3364
+    12         H         -2.1476      1.7240      1.5502
+    13         H         -2.1476      0.3952      2.2845
+    14         H          2.7305      1.4194      0.7189
+    15         H          2.7305      0.1704      1.5819
+    16         H         -1.5802     -2.4906      1.1344
+    17         H         -1.5802     -2.7120     -0.3675
+    18         H         -0.5920      2.8888     -1.1363
+    19         H         -0.5920      3.0822      0.3694
+    20         H          2.2922     -2.1116     -0.5237
+    21         H          2.2922     -1.2550     -1.7771
+    22         H         -2.3807     -1.0109     -1.8159
+    23         H         -2.3807      0.4936     -2.0188
+    24         H          0.9804      0.4147     -2.9756
+    25         H          0.9804      1.8165     -2.3929
+ 
+
+ References for PM7 Sparkles:
+ "Sparkle/PM7 Lanthanide Parameters for the Modeling of Complexes and Materials"
+ J. D. L. Dutra, M. A. M. Filho1, R. O. Freire, G. B. Rocha, A. M. Simas, and J. J. P. Stewart
+ Chemistry of Materials (submitted)
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: H16 O8 Eu  =    25 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 32
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  3.00D  GRAD.:    57.275 HEAT:  407.6718
+ CYCLE:     2 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:    41.896 HEAT:  402.5700
+ CYCLE:     3 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:   156.997 HEAT:  406.2514
+ CYCLE:     4 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:    37.932 HEAT:  400.0992
+ CYCLE:     5 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:    77.425 HEAT:  401.1971
+ CYCLE:     6 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:    12.256 HEAT:  399.4095
+ CYCLE:     7 TIME:   0.004 TIME LEFT:  3.00D  GRAD.:    13.963 HEAT:  399.3791
+ CYCLE:     8 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     7.205 HEAT:  399.1784
+ CYCLE:     9 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:    10.563 HEAT:  398.9686
+ CYCLE:    10 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:    20.582 HEAT:  398.5727
+ CYCLE:    11 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:    16.570 HEAT:  398.0610
+ CYCLE:    12 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     8.114 HEAT:  397.5533
+ CYCLE:    13 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     7.373 HEAT:  397.3408
+ CYCLE:    14 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:    11.486 HEAT:  396.9517
+ CYCLE:    15 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:    13.186 HEAT:  396.5991
+ CYCLE:    16 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     6.730 HEAT:  396.3150
+ CYCLE:    17 TIME:   0.004 TIME LEFT:  3.00D  GRAD.:     5.788 HEAT:  396.2013
+ CYCLE:    18 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     3.730 HEAT:  396.1335
+ CYCLE:    19 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     5.799 HEAT:  396.0017
+ CYCLE:    20 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     6.988 HEAT:  395.8891
+ CYCLE:    21 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     4.777 HEAT:  395.7773
+ CYCLE:    22 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     2.699 HEAT:  395.7426
+ CYCLE:    23 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     3.465 HEAT:  395.7122
+ CYCLE:    24 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     4.792 HEAT:  395.6721
+ CYCLE:    25 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     6.162 HEAT:  395.5871
+ CYCLE:    26 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     3.360 HEAT:  395.5080
+ CYCLE:    27 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     2.785 HEAT:  395.4788
+ CYCLE:    28 TIME:   0.004 TIME LEFT:  3.00D  GRAD.:     2.677 HEAT:  395.4581
+ CYCLE:    29 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     2.649 HEAT:  395.4276
+ CYCLE:    30 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     2.681 HEAT:  395.4017
+ CYCLE:    31 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     2.429 HEAT:  395.3747
+ CYCLE:    32 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     1.928 HEAT:  395.3564
+ CYCLE:    33 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     1.888 HEAT:  395.3398
+ CYCLE:    34 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     2.667 HEAT:  395.3179
+ CYCLE:    35 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     3.686 HEAT:  395.2852
+ CYCLE:    36 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     3.898 HEAT:  395.2425
+ CYCLE:    37 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     1.743 HEAT:  395.2108
+ CYCLE:    38 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     1.655 HEAT:  395.2018
+ CYCLE:    39 TIME:   0.016 TIME LEFT:  3.00D  GRAD.:     2.425 HEAT:  395.1724
+ CYCLE:    40 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     3.237 HEAT:  395.1385
+ CYCLE:    41 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     3.591 HEAT:  395.0817
+ CYCLE:    42 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     3.110 HEAT:  395.0505
+ CYCLE:    43 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     6.067 HEAT:  394.9760
+ CYCLE:    44 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     4.539 HEAT:  394.9292
+ CYCLE:    45 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     3.138 HEAT:  394.7762
+ CYCLE:    46 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     2.059 HEAT:  394.7305
+ CYCLE:    47 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     1.927 HEAT:  394.7117
+ CYCLE:    48 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     2.045 HEAT:  394.6978
+ CYCLE:    49 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     3.686 HEAT:  394.6121
+ CYCLE:    50 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     3.833 HEAT:  394.5621
+ CYCLE:    51 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     4.892 HEAT:  394.4789
+ CYCLE:    52 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     2.496 HEAT:  394.4327
+ CYCLE:    53 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     2.115 HEAT:  394.3936
+ CYCLE:    54 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     2.628 HEAT:  394.3168
+ CYCLE:    55 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     2.346 HEAT:  394.2730
+ CYCLE:    56 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     1.820 HEAT:  394.2528
+ CYCLE:    57 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     1.757 HEAT:  394.2403
+ CYCLE:    58 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     1.874 HEAT:  394.2278
+ CYCLE:    59 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     2.514 HEAT:  394.2077
+ CYCLE:    60 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     3.233 HEAT:  394.1751
+ CYCLE:    61 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     3.146 HEAT:  394.1275
+ CYCLE:    62 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     1.672 HEAT:  394.0989
+ CYCLE:    63 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     1.490 HEAT:  394.0900
+ CYCLE:    64 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     1.283 HEAT:  394.0805
+ CYCLE:    65 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     1.226 HEAT:  394.0693
+ CYCLE:    66 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     1.146 HEAT:  394.0581
+ CYCLE:    67 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     1.084 HEAT:  394.0509
+ CYCLE:    68 TIME:   0.016 TIME LEFT:  3.00D  GRAD.:     1.159 HEAT:  394.0456
+ CYCLE:    69 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     1.310 HEAT:  394.0390
+ CYCLE:    70 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     1.524 HEAT:  394.0262
+ CYCLE:    71 TIME:   0.008 TIME LEFT:  3.00D  GRAD.:     1.214 HEAT:  394.0171
+ CYCLE:    72 TIME:   0.012 TIME LEFT:  3.00D  GRAD.:     0.955 HEAT:  394.0089
+
+     GRADIENT =  0.95524 IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+ PM7 SPARKLE CHARGE=3 AUX GNORM=1.0 CYCLES=3000 THREADS=2 GEO-OK T=3D DUMP=30M BONDS EF LET
+ PM7std_CTRL_Eu_w8 [Eu(H2O)8]3+ gas-phase cluster | Sparkle/PM7 as distributed (no EXTERNAL), same start as PM7_CTRL_Eu_w8
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v23.2.5 Windows
+                                                       Mon Nov 23 17:35:33 2026
+
+
+
+
+          FINAL HEAT OF FORMATION =        394.00891 KCAL/MOL =    1648.53329 KJ/MOL
+
+
+          COSMO AREA              =        209.13 SQUARE ANGSTROMS
+          COSMO VOLUME            =        228.38 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.95524          =       0.19105 PER ATOM
+          IONIZATION POTENTIAL    =         25.622070 EV
+          HOMO LUMO ENERGIES (EV) =        -25.622 -8.057
+          NO. OF FILLED LEVELS    =         32
+          MOLECULAR WEIGHT        =        296.0856         POINT GROUP:  C1  
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    16    H    14     6.23132
+            H    11    H    24     6.16941
+            H    20    H    12     5.88636
+
+
+          SCF CALCULATIONS        =         73
+ 
+          WALL-CLOCK TIME         =      0.715 SECONDS
+          COMPUTATION TIME        =      0.734 SECONDS
+
+
+
+
+  ATOM    CHEMICAL      BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER    SYMBOL       (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                     NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1      Eu         -0.00627244  *    0.0023112  *    0.0104377  *     0     0     0
+     2       O          0.60156026  *   -0.8558847  *    2.2408990  *     0     0     0
+     3       O         -1.82932444  *    0.4332096  *    1.6142740  *     0     0     0
+     4       O          2.05153564  *    1.1211109  *    0.7813087  *     0     0     0
+     5       O         -1.16606914  *   -2.1628352  *   -0.2129986  *     0     0     0
+     6       O         -0.36624596  *    2.4379235  *    0.1524961  *     0     0     0
+     7       O          1.60879054  *   -1.7002882  *   -0.7456620  *     0     0     0
+     8       O         -1.86276909  *    0.1885384  *   -1.6027549  *     0     0     0
+     9       O          0.84004404  *    0.5586694  *   -2.2381318  *     0     0     0
+    10       H          0.96000000     130.7606947  *  167.4703297  *     2     1     5
+    11       H          0.96000000     131.9818163  *  -11.4229492  *     2     1     5
+    12       H          0.96000000     131.8044446  *  -76.0351113  *     3     1     5
+    13       H          0.96000000     130.8704836  *  102.8472765  *     3     1     5
+    14       H          0.96000000     130.6561112  * -154.1034688  *     4     1     5
+    15       H          0.96000000     132.0199191  *   28.2833467  *     4     1     5
+    16       H          0.96000000     131.8710536  *  162.3395467  *     5     1     7
+    17       H          0.96000000     130.8595751  *  -15.7582298  *     5     1     7
+    18       H          0.96000000     132.0664460  * -117.8645578  *     6     1     5
+    19       H          0.96000000     130.6746699  *   60.7014721  *     6     1     5
+    20       H          0.96000000     132.0679940  *  -74.1044960  *     7     1     5
+    21       H          0.96000000     130.6128095  *  107.1653040  *     7     1     5
+    22       H          0.96000000     130.6061776  *  -11.8996955  *     8     1     5
+    23       H          0.96000000     131.9778796  *  166.1437939  *     8     1     5
+    24       H          0.96000000     130.5411965  *   44.2637992  *     9     1     5
+    25       H          0.96000000     132.1195381  * -137.9635977  *     9     1     5
+
+                             CARTESIAN COORDINATES
+
+   1   Eu       -0.006272443     0.002311181     0.010437721
+   2    O        0.601560259    -0.855884719     2.240899002
+   3    O       -1.829324444     0.433209603     1.614274016
+   4    O        2.051535638     1.121110855     0.781308671
+   5    O       -1.166069145    -2.162835233    -0.212998600
+   6    O       -0.366245958     2.437923476     0.152496052
+   7    O        1.608790535    -1.700288175    -0.745662015
+   8    O       -1.862769085     0.188538428    -1.602754938
+   9    O        0.840044043     0.558669354    -2.238131788
+  10    H        1.241744845    -0.537934201     2.881735303
+  11    H        0.292952910    -1.613358210     2.743487714
+  12    H       -2.755996261     0.649190146     1.486870137
+  13    H       -1.836860741     0.423533506     2.574195668
+  14    H        2.200589340     2.022596058     1.075769914
+  15    H        2.958705762     0.816413214     0.857477646
+  16    H       -2.002403497    -2.480654774     0.135046784
+  17    H       -0.907028673    -2.970626919    -0.662410021
+  18    H       -0.090144845     3.162967963    -0.412905281
+  19    H       -0.850786307     2.962427130     0.794147490
+  20    H        2.038778764    -2.426809878    -0.288632105
+  21    H        2.021491039    -1.833388630    -1.602144684
+  22    H       -2.398984137    -0.490088413    -2.019335097
+  23    H       -2.297435740     0.948544902    -1.996525251
+  24    H        0.415186654     0.499774656    -3.096984286
+  25    H        1.674839214     0.924537863    -2.539557163
+
+
+           Empirical Formula: H16 O8 Eu  =    25 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+                  EIGENVALUES  
+ -42.17427 -42.10229 -42.05212 -42.03952 -42.00252 -41.98510 -41.91742 -41.90050
+ -30.25898 -30.25122 -30.19003 -30.17978 -30.15296 -30.14519 -30.11214 -30.06697
+ -28.39153 -28.37239 -28.35071 -28.33948 -28.33298 -28.31589 -28.29497 -28.27357
+ -25.71637 -25.70514 -25.69045 -25.68632 -25.67132 -25.65673 -25.64224 -25.62207
+  -8.05660  -7.84923  -7.74872  -7.73449  -7.61468  -7.59134  -7.43376  -7.41590
+  -5.67812  -5.67081  -5.66800  -5.66154  -5.65653  -5.65113  -5.64650  -5.63889
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1         Eu           3.000000        0.0000
+    2          O          -0.920431        6.9204     1.80600     5.11443
+    3          O          -0.920064        6.9201     1.80592     5.11414
+    4          O          -0.920386        6.9204     1.80594     5.11444
+    5          O          -0.919845        6.9198     1.80603     5.11381
+    6          O          -0.920157        6.9202     1.80602     5.11414
+    7          O          -0.920062        6.9201     1.80592     5.11414
+    8          O          -0.918435        6.9184     1.80590     5.11253
+    9          O          -0.919274        6.9193     1.80598     5.11330
+   10          H           0.460584        0.5394     0.53942
+   11          H           0.459871        0.5401     0.54013
+   12          H           0.459670        0.5403     0.54033
+   13          H           0.460344        0.5397     0.53966
+   14          H           0.460371        0.5396     0.53963
+   15          H           0.459966        0.5400     0.54003
+   16          H           0.459364        0.5406     0.54064
+   17          H           0.460544        0.5395     0.53946
+   18          H           0.459754        0.5402     0.54025
+   19          H           0.460478        0.5395     0.53952
+   20          H           0.459793        0.5402     0.54021
+   21          H           0.460190        0.5398     0.53981
+   22          H           0.459278        0.5407     0.54072
+   23          H           0.459170        0.5408     0.54083
+   24          H           0.460260        0.5397     0.53974
+   25          H           0.459016        0.5410     0.54098
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -0.042     0.034    -0.017     0.057
+ HYBRID        -0.012     0.004    -0.012     0.017
+ SUM           -0.054     0.038    -0.029     0.072
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1 Eu
+    2  O   1.80600   1.76239   1.68195   1.67009
+    3  O   1.80592   1.58492   1.97722   1.55200
+    4  O   1.80594   1.58757   1.57216   1.95471
+    5  O   1.80603   1.63652   1.62809   1.84921
+    6  O   1.80602   1.85377   1.60134   1.65902
+    7  O   1.80592   1.82236   1.73351   1.55826
+    8  O   1.80590   1.76133   1.51529   1.83591
+    9  O   1.80598   1.58728   1.93390   1.59213
+   10  H   0.53942
+   11  H   0.54013
+   12  H   0.54033
+   13  H   0.53966
+   14  H   0.53963
+   15  H   0.54003
+   16  H   0.54064
+   17  H   0.53946
+   18  H   0.54025
+   19  H   0.53952
+   20  H   0.54021
+   21  H   0.53981
+   22  H   0.54072
+   23  H   0.54083
+   24  H   0.53974
+   25  H   0.54098
+
+          BONDING CONTRIBUTION OF EACH M.O.
+
+  1.1639  1.1583  1.1529  1.1523  1.1490  1.1482  1.1407  1.1401  1.4415  1.4426
+  1.4410  1.4410  1.4397  1.4393  1.4370  1.4364  0.5483  0.5509  0.5546  0.5547
+  0.5561  0.5559  0.5607  0.5612  0.0025  0.0028  0.0018  0.0018  0.0022  0.0021
+  0.0030  0.0029 -1.6010 -1.5991 -1.5974 -1.5971 -1.5950 -1.5947 -1.5909 -1.5914
+ -1.5537 -1.5543 -1.5527 -1.5531 -1.5515 -1.5507 -1.5527 -1.5500
+
+
+
+
+
+            (VALENCIES)   BOND ORDERS
+
+     2  O     (1.571)    11  H 0.785    10  H 0.784
+ 
+     3  O     (1.571)    12  H 0.785    13  H 0.784
+ 
+     4  O     (1.571)    15  H 0.785    14  H 0.784
+ 
+     5  O     (1.571)    16  H 0.786    17  H 0.784
+ 
+     6  O     (1.571)    18  H 0.785    19  H 0.784
+ 
+     7  O     (1.571)    20  H 0.785    21  H 0.785
+ 
+     8  O     (1.573)    23  H 0.786    22  H 0.785
+ 
+     9  O     (1.572)    25  H 0.786    24  H 0.784
+ 
+    10  H     (0.788)     2  O 0.784
+ 
+    11  H     (0.789)     2  O 0.785
+ 
+    12  H     (0.789)     3  O 0.785
+ 
+    13  H     (0.788)     3  O 0.784
+ 
+    14  H     (0.788)     4  O 0.784
+ 
+    15  H     (0.788)     4  O 0.785
+ 
+    16  H     (0.789)     5  O 0.786
+ 
+    17  H     (0.788)     5  O 0.784
+ 
+    18  H     (0.789)     6  O 0.785
+ 
+    19  H     (0.788)     6  O 0.784
+ 
+    20  H     (0.789)     7  O 0.785
+ 
+    21  H     (0.788)     7  O 0.785
+ 
+    22  H     (0.789)     8  O 0.785
+ 
+    23  H     (0.789)     8  O 0.786
+ 
+    24  H     (0.788)     9  O 0.784
+ 
+    25  H     (0.789)     9  O 0.786
+ 
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.72 SECONDS
+
+ == MOPAC DONE ==

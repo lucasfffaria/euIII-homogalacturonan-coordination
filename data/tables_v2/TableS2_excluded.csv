@@ -1,0 +1,79 @@
+Job,Model,Status,Integrity,CN,shortest Eu-O (A),CO2 lost,Motif
+PM7_A6_h3_mono2,Sparkle/PM7+EuO,cycles,intact,7,2.341,0,A4:mono+O5
+PM7_A6_h3_hyd,Sparkle/PM7+EuO,cycles,intact,9,2.381,0,—
+PM7_A6_h2_hyd,Sparkle/PM7+EuO,cycles,intact,9,2.369,0,—
+PM7_A6_cl_hyd,Sparkle/PM7+EuO,cycles,intact,9,2.375,0,—
+RM1_B3_h3_hyd,RM1,converged,not intact,9,2.431,1,—
+RM1_B3_h2_bid,RM1,converged,not intact,9,2.444,1,A2:bi
+PM7_B3_h2_hyd,Sparkle/PM7+EuO,cycles,intact,9,2.388,0,—
+RM1_B3_h2_hyd,RM1,converged,not intact,9,2.450,1,—
+RM1_B3_cl_hyd,RM1,converged,not intact,9,2.436,1,—
+RM1_L3_h3_bid,RM1,converged,not intact,9,2.465,1,A2:bi
+RM1_L3_h3_hyd,RM1,ended,not intact,9,2.443,1,—
+RM1_L3_h2_hyd,RM1,ended,intact,9,2.444,0,—
+RM1_L3_cl_mono2,RM1,converged,not intact,8,2.337,1,M1:+O2 A2:mono
+RM1_L3_cl_hyd,RM1,converged,not intact,9,2.444,1,—
+PM7_P3_h2_bid,Sparkle/PM7+EuO,cycles,intact,9,2.442,0,A1:bi
+RM1_B2_h3_hyd,RM1,converged,not intact,9,2.457,1,—
+RM1_B2_h2_bid,RM1,converged,not intact,9,2.454,1,A1:bi
+PM7_B2_h2_mono2,Sparkle/PM7+EuO,cycles,intact,8,2.352,0,A0:+O1 A1:mono+O5O4
+RM1_B2_h2_hyd,RM1,converged,not intact,9,2.440,1,—
+RM1_B2_cl_bid,RM1,converged,not intact,8,2.424,1,A1:bi
+RM1_B2_cl_hyd,RM1,converged,not intact,9,2.438,1,—
+RM1_D2_h3_bid,RM1,converged,not intact,8,2.436,1,A3:bi
+RM1_D2_h3_mono2,RM1,converged,not intact,9,2.441,1,A3:bi
+RM1_D2_h3_hyd,RM1,converged,not intact,9,2.447,1,—
+RM1_D2_h2_bid,RM1,ended,intact,9,2.443,0,A3:bi
+RM1_D2_h2_mono2,RM1,converged,not intact,8,2.320,1,A3:mono
+RM1_D2_h2_hyd,RM1,converged,not intact,9,2.442,1,—
+RM1_D2_cl_bid,RM1,ended,intact,9,2.405,0,A3:bi
+RM1_D2_cl_mono2,RM1,ended,intact,8,2.454,0,A3:bi
+RM1_D2_cl_hyd,RM1,converged,not intact,9,2.449,1,—
+RM1_S1_h3_hyd,RM1,converged,not intact,9,2.455,1,—
+RM1_S1_h2_hyd,RM1,converged,not intact,9,2.454,1,—
+RM1_S1_cl_hyd,RM1,converged,not intact,9,2.460,1,—
+RM1_M6_h3_hyd,RM1,converged,not intact,9,2.462,0,—
+RM1_M6_h2_hyd,RM1,converged,not intact,9,2.461,0,—
+RM1_M6_cl_hyd,RM1,converged,not intact,9,2.462,0,—
+RM1_H3alt_h3_bid,RM1,converged,not intact,8,2.435,1,A2:bi
+RM1_H3alt_h3_mono2,RM1,converged,not intact,8,2.280,1,A2:mono
+RM1_H3alt_h3_hyd,RM1,ended,intact,9,2.440,0,—
+RM1_H3alt_h2_hyd,RM1,converged,not intact,9,2.458,1,—
+RM1_H3alt_cl_hyd,RM1,converged,not intact,9,2.447,1,—
+RM1_H3blk_h3_bid,RM1,converged,not intact,8,2.428,1,A2:bi
+RM1_H3blk_h3_hyd,RM1,converged,not intact,9,2.446,1,—
+RM1_H3blk_h2_bid,RM1,converged,not intact,9,2.448,1,A2:bi
+RM1_H3blk_h2_mono2,RM1,converged,not intact,8,2.273,1,A1:mono
+RM1_H3blk_h2_hyd,RM1,converged,not intact,9,2.445,1,—
+RM1_H3blk_cl_bid,RM1,converged,not intact,9,2.450,1,A2:bi
+RM1_H3blk_cl_hyd,RM1,converged,not intact,9,2.446,1,—
+PM7_A6_h2_bid_cw4,Sparkle/PM7+EuO,cycles,intact,9,2.435,0,A2:bi
+RM1_B3_h2_bid_cw0,RM1,converged,not intact,9,2.449,1,A2:bi
+PM7_B3_h2_bid_cw4,Sparkle/PM7+EuO,cycles,intact,9,2.298,0,A2:bi
+RM1_B3_h2_bid_cw4,RM1,converged,not intact,9,2.446,1,A2:bi
+RM1_CTRL_GalA_hyd,RM1,converged,not intact,9,2.460,1,—
+PM7std_A6_h3_bid,Sparkle/PM7,cycles,not intact,9,1.291,0,A2:bi
+PM7std_A6_h3_mono2,Sparkle/PM7,cycles,intact,7,2.286,0,A4:mono+O5
+PM7std_A6_h3_hyd,Sparkle/PM7,ended,intact,9,2.466,0,—
+PM7std_A6_h2_mono2,Sparkle/PM7,converged,not intact,8,1.337,0,A1:mono
+PM7std_A6_cl_mono2,Sparkle/PM7,converged,not intact,7,1.327,0,A2:mono
+PM7std_A6_cl_hyd,Sparkle/PM7,cycles,intact,9,2.429,0,—
+PM7std_B3_h3_mono2,Sparkle/PM7,converged,not intact,7,1.321,0,A2:mono
+PM7std_B3_cl_mono2,Sparkle/PM7,converged,not intact,7,1.327,0,A2:mono
+PM7std_L3_h3_mono2,Sparkle/PM7,converged,not intact,7,1.301,0,A2:mono
+PM7std_L3_cl_bid,Sparkle/PM7,converged,not intact,8,1.313,0,A2:bi
+PM7std_P3_h3_bid,Sparkle/PM7,converged,not intact,8,1.298,0,A1:bi
+PM7std_P3_h3_mono2,Sparkle/PM7,cycles,not intact,7,1.324,0,A1:mono
+PM7std_B2_h3_mono2,Sparkle/PM7,converged,not intact,7,1.316,0,A1:mono
+PM7std_B2_cl_bid,Sparkle/PM7,converged,not intact,8,1.295,0,A1:bi
+PM7std_D2_cl_mono2,Sparkle/PM7,cycles,intact,8,2.437,0,A3:bi
+PM7std_H3alt_h2_mono2,Sparkle/PM7,cycles,intact,8,2.146,0,H1:+O2 A2:mono
+PM7std_H3alt_cl_bid,Sparkle/PM7,converged,not intact,7,1.305,0,A2:bi
+PM7std_H3blk_h3_bid,Sparkle/PM7,converged,not intact,8,1.294,0,A2:bi
+PM7std_H3blk_h3_mono2,Sparkle/PM7,cycles,not intact,7,1.309,0,A2:mono
+PM7std_H3blk_h2_bid,Sparkle/PM7,converged,not intact,9,1.305,0,A2:bi
+PM7std_H3blk_h2_mono2,Sparkle/PM7,converged,not intact,8,1.322,0,A1:mono
+PM7std_H3blk_cl_mono2,Sparkle/PM7,converged,not intact,7,1.314,0,A2:mono
+PM7std_B3_h2_bid_cw4,Sparkle/PM7,cycles,intact,9,1.503,0,A2:bi
+SRM1_A6_h3_mono2,Sparkle/RM1,cycles,not intact,4,2.343,2,A4:+O5
+SRM1_A6_h3_hyd,Sparkle/RM1,ended,intact,9,2.489,0,—

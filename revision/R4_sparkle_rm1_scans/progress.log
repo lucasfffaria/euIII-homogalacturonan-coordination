@@ -1,0 +1,16 @@
+2026-11-23T17:07:42 START: 7 pending jobs, MaxParallel=13
+2026-11-23T17:07:42 START SRM1_acetate_lig (stage 0)
+2026-11-23T17:07:42 START SRM1_ester_lig (stage 0)
+2026-11-23T17:07:42 START SRM1_ether_lig (stage 0)
+2026-11-23T17:07:42 START SRM1_Eu (stage 0)
+2026-11-23T17:07:42 START SRM1_methanol_lig (stage 0)
+2026-11-23T17:07:42 START SRM1_methoxide_lig (stage 0)
+2026-11-23T17:07:42 START SRM1_water_lig (stage 0)
+2026-11-23T17:07:47 DONE  SRM1_ester_lig exit=0 gnorm=1000000000 5s
+2026-11-23T17:07:47 DONE  SRM1_methoxide_lig exit=0 gnorm=1000000000 5s
+2026-11-23T17:07:47 DONE  SRM1_Eu exit=0 gnorm=1000000000 5s
+2026-11-23T17:07:47 DONE  SRM1_water_lig exit=0 gnorm=1000000000 5s
+2026-11-23T17:07:47 DONE  SRM1_acetate_lig exit=0 gnorm=1000000000 5s
+2026-11-23T17:07:47 DONE  SRM1_methanol_lig exit=0 gnorm=1000000000 5s
+2026-11-23T17:07:47 DONE  SRM1_ether_lig exit=0 gnorm=1000000000 5s
+2026-11-23T17:07:52 ALL DONE in 0 min
